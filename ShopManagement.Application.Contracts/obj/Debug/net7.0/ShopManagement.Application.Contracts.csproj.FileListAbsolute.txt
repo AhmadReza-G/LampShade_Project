@@ -1,0 +1,15 @@
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\bin\Debug\net7.0\ShopManagement.Application.Contracts.deps.json
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\bin\Debug\net7.0\0_Framework.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\bin\Debug\net7.0\0_Framework.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.csproj.CopyComplete
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\obj\Debug\net7.0\refint\ShopManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Application.Contracts\obj\Debug\net7.0\ref\ShopManagement.Application.Contracts.dll

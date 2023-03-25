@@ -1,0 +1,1505 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ServiceHost.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ServiceHost.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap-inputmask\\bootstrap-inputmask.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap-inputmask\\bootstrap-inputmask.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap-wysihtml5\\wysihtml5-0.3.0.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap-wysihtml5\\wysihtml5-0.3.0.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap-wysihtml5\\wysiwyg-color.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap-wysihtml5\\wysiwyg-color.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap3-editable\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap3-editable\\bootstrap-editable.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap3-editable\\bootstrap-editable.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap3-editable\\bootstrap-editable.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap3-editable\\clear.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap3-editable\\clear.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap3-editable\\demo-xeditable.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap3-editable\\demo-xeditable.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap3-editable\\loading.gif",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap3-editable\\loading.gif"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\bootstrap3-editable\\moment.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap3-editable\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\chartjs\\chart.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\chartjs\\chart.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\chartjs\\chartjs.init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\chartjs\\chartjs.init.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\chat\\moment-2.2.1.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\chat\\moment-2.2.1.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\codemirror\\ambiance.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\codemirror\\ambiance.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\codemirror\\custom.codemirror.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\codemirror\\custom.codemirror.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\codemirror\\formatting.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\codemirror\\formatting.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\codemirror\\xml.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\codemirror\\xml.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\colorpicker\\bootstrap-colorpicker.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\colorpicker\\bootstrap-colorpicker.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\colorpicker\\colorpicker.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\colorpicker\\colorpicker.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\colorpicker\\img\\alpha.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\colorpicker\\img\\alpha.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\colorpicker\\img\\hue.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\colorpicker\\img\\hue.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\colorpicker\\img\\saturation.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\colorpicker\\img\\saturation.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\comingsoon\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\comingsoon\\jquery.countdown.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\comingsoon\\jquery.simple-text-rotator.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\comingsoon\\jquery.simple-text-rotator.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\comingsoon\\simpletextrotator.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\comingsoon\\simpletextrotator.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\counterup\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\counterup\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\counterup\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\counterup\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\helper.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\helper.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\persian-datepicker.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\style-responsive.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\style-responsive.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\waves-effect.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\waves-effect.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\datatables\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\datatables\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\datatables\\datatables.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\datatables\\datatables.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\datatables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\datatables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\datatables\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\datatables\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\dropzone\\spritemap.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\dropzone\\spritemap.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\dropzone\\spritemap@2x.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\dropzone\\spritemap@2x.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\easypie-chart\\easypiechart.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\easypie-chart\\easypiechart.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\easypie-chart\\example.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\easypie-chart\\example.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\easypie-chart\\jquery.easypiechart.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\easypie-chart\\jquery.easypiechart.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fastclick\\fastclick.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fastclick\\fastclick.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.crosshair.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.crosshair.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.init.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.selection.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.selection.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.stack.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.stack.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.time.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.time.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\animated.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\animated.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\spinning.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\spinning.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_animated.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_spinning.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_spinning.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\form-wizard\\bootstrap-validator.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\form-wizard\\bootstrap-validator.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\form-wizard\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\form-wizard\\jquery.steps.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\form-wizard\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\form-wizard\\jquery.steps.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\form-wizard\\wizard-init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\form-wizard\\wizard-init.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fullcalendar\\bootstrap-fullcalendar.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fullcalendar\\bootstrap-fullcalendar.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fullcalendar\\dragging-calendar-event-init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fullcalendar\\dragging-calendar-event-init.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fullcalendar\\external-dragging-calendar.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fullcalendar\\external-dragging-calendar.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fullcalendar\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fullcalendar\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fullcalendar\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fullcalendar\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fullcalendar\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fullcalendar\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\fullcalendar\\moment.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fullcalendar\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\gallery\\isotope.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\gallery\\isotope.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\gmaps\\gmaps-plugin.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\gmaps\\gmaps-plugin.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\big\\Thumbs.db",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\big\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\big\\bg.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\big\\bg.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\big\\img1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\big\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\favicon_1.ico",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\favicon_1.ico"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\10.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\10.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\11.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\11.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\12.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\12.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\3.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\4.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\5.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\6.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\6.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\7.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\7.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\8.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\8.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\gallery\\9.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\gallery\\9.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\logo_dark.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\logo_dark.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\small\\Thumbs.db",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\small\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\small\\bg.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\small\\bg.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\small\\bg1.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\small\\bg1.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\small\\img1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\small\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\small\\img2.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\small\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\small\\img3.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\small\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\Thumbs.db",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-10.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-7.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-8.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-9.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-9.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ion-rangeslider\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ion-rangeslider\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ion-rangeslider\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ion-rangeslider\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ion-rangeslider\\ion.rangeSlider.skinFlat.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ion-rangeslider\\ion.rangeSlider.skinFlat.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ion-rangeslider\\sprite-skin-flat.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ion-rangeslider\\sprite-skin-flat.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ion-rangeslider\\ui-sliders.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ion-rangeslider\\ui-sliders.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ionicon\\css\\ionicons.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ionicon\\css\\ionicons.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ionicon\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ionicon\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ionicon\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ionicon\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ionicon\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ionicon\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ionicon\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ionicon\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\ionicon\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ionicon\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-blockui\\jquery.blockUI.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-blockui\\jquery.blockUI.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-datatables-editable\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-datatables-editable\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-datatables-editable\\datatables.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-datatables-editable\\datatables.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-datatables-editable\\datatables.editable.init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-datatables-editable\\datatables.editable.init.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-datatables-editable\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-datatables-editable\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-detectmobile\\detect.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-detectmobile\\detect.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-knob\\excanvas.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-knob\\excanvas.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-knob\\jquery.knob.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-knob\\jquery.knob.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-multi-select\\img\\switch.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-multi-select\\img\\switch.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-multi-select\\jquery.multi-select.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-multi-select\\jquery.multi-select.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-multi-select\\jquery.quicksearch.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-multi-select\\jquery.quicksearch.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-multi-select\\multi-select.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-multi-select\\multi-select.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-slimscroll\\jquery.slimscroll.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-slimscroll\\jquery.slimscroll.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-sparkline\\charts-sparkline.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-sparkline\\charts-sparkline.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery.validate\\form-validation-init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery.validate\\form-validation-init.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery.validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery.validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\jquery-ui-1.10.1.custom.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery-ui-1.10.1.custom.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\jquery.app.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.app.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\jquery.chat.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.chat.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\jquery.dashboard.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.dashboard.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\jquery.scrollTo.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.scrollTo.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\jquery.todo.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.todo.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\modernizr.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\modernizr.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\npm.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\npm.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-date.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-date.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-datepicker.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\site.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\skycons.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\skycons.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\waves.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\waves.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jvectormap\\gdp-data.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jvectormap\\gdp-data.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-2.0.2.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-2.0.2.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-2.0.2.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-2.0.2.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-europe-mill-en.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-europe-mill-en.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-uk-mill-en.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-uk-mill-en.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-us-aea-en.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-us-aea-en.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-us-il-chicago-mill-en.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-us-il-chicago-mill-en.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jvectormap\\jvectormap.init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jvectormap\\jvectormap.init.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\magnific-popup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\magnific-popup\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\magnific-popup\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\magnific-popup\\magnific-popup.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\modal-effect\\css\\component.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\modal-effect\\css\\component.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\modal-effect\\js\\classie.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\modal-effect\\js\\classie.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\modal-effect\\js\\modalEffects.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\modal-effect\\js\\modalEffects.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\morris\\morris.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\morris\\morris.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\morris\\morris.init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\morris\\morris.init.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\morris\\morris.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\morris\\morris.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\morris\\raphael.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\morris\\raphael.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\nestable\\jquery.nestable.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\nestable\\jquery.nestable.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\nestable\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\nestable\\jquery.nestable.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\nestable\\nestable.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\nestable\\nestable.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\notifications\\notification.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\notifications\\notification.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\notifications\\notifications.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\notifications\\notifications.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\notifications\\notify-metro.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\notifications\\notify-metro.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\notifications\\notify.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\notifications\\notify.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\peity-chart\\jquery.peity.init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\peity-chart\\jquery.peity.init.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\peity-chart\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\peity-chart\\jquery.peity.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\radial\\radial.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\radial\\radial.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\responsive-table\\rwd-table.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\responsive-table\\rwd-table.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\responsive-table\\rwd-table.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\responsive-table\\rwd-table.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\select2\\img\\droparrows.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\select2\\img\\droparrows.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\select2\\img\\select2-spinner.gif",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\select2\\img\\select2-spinner.gif"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\select2\\img\\select2.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\select2\\img\\select2.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\select2\\img\\select2x2.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\select2\\img\\select2x2.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\select2\\select2.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\spinner\\spinner.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\spinner\\spinner.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\summernote\\summernote.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\summernote\\summernote.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\summernote\\summernote.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\sweet-alert\\sweet-alert.init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\sweet-alert\\sweet-alert.init.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\sweet-alert\\sweet-alert.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\sweet-alert\\sweet-alert.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\sweet-alert\\sweet-alert.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\sweet-alert\\sweet-alert.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\sweet-alert\\thumbs-up.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\sweet-alert\\thumbs-up.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\tagsinput\\jquery.tagsinput.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\tagsinput\\jquery.tagsinput.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\tagsinput\\jquery.tagsinput.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\tagsinput\\jquery.tagsinput.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\timepicker\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\timepicker\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\timepicker\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\timepicker\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\timepicker\\bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\timepicker\\bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\timepicker\\bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\timepicker\\bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\toggles\\toggles.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\toggles\\toggles.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\toggles\\toggles.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\toggles\\toggles.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\IranianSans.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\IranianSans.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\IranianSans.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\IranianSans.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.woff"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\IranianSans.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.woff2"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\big\\Thumbs.db",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\big\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\big\\bg.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\big\\bg.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\big\\img1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\big\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\favicon_1.ico",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\favicon_1.ico"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\10.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\10.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\11.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\11.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\12.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\12.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\3.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\4.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\5.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\6.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\6.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\7.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\7.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\8.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\8.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\gallery\\9.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\gallery\\9.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\logo_dark.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\logo_dark.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\small\\Thumbs.db",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\small\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\small\\bg.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\small\\bg.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\small\\bg1.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\small\\bg1.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\small\\img1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\small\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\small\\img2.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\small\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\small\\img3.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\small\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\Thumbs.db",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-10.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-7.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-8.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-9.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-9.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ServiceHost.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ServiceHost.props",
+      "PackagePath": "build\\ServiceHost.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ServiceHost.props",
+      "PackagePath": "buildMultiTargeting\\ServiceHost.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ServiceHost.props",
+      "PackagePath": "buildTransitive\\ServiceHost.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

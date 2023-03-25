@@ -1,0 +1,17 @@
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\bin\Debug\net7.0\ShopManagement.Domain.deps.json
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\bin\Debug\net7.0\ShopManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\bin\Debug\net7.0\ShopManagement.Domain.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\bin\Debug\net7.0\0_Framework.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\bin\Debug\net7.0\0_Framework.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.csproj.AssemblyReference.cache
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.AssemblyInfo.cs
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.csproj.CopyComplete
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\obj\Debug\net7.0\refint\ShopManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\obj\Debug\net7.0\ShopManagement.Domain.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Domain\obj\Debug\net7.0\ref\ShopManagement.Domain.dll
