@@ -31,10 +31,6 @@
     <link href="~/AdminTheme/assets/sweet-alert/sweet-alert.min.css" rel="stylesheet">
 
     <!-- Custom Files -->
-    <link href="~/AdminTheme/assets/css/persian-datepicker.min.css" rel="stylesheet" />
-
-    @RenderSection("Css", false)
-
     <link href="~/AdminTheme/assets/css/helper.css" rel="stylesheet" type="text/css" />
     <link href="~/AdminTheme/assets/css/style.css" rel="stylesheet" type="text/css" />
     <script src="~/AdminTheme/assets/js/modernizr.min.js"></script>
@@ -50,7 +46,7 @@
             <!-- LOGO -->
             <div class="topbar-left">
                 <div class="text-center">
-                    <a href="index.html" class="logo"><i class="md md-terrain"></i> <span> Lampshade </span></a>
+                    <a href="index.html" class="logo"><i class="md md-terrain"></i> <span>Moltran </span></a>
                 </div>
             </div>
             <!-- Button mobile view to collapse sidebar menu -->
@@ -65,66 +61,66 @@
                         </div>
                         <form class="navbar-form pull-left" role="search">
                             <div class="form-group">
-                                <input type="text" class="form-control search-bar" placeholder="جستجو ...">
+                                <input type="text" class="form-control search-bar" placeholder="Type here for search...">
                             </div>
                             <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
                         </form>
 
-                        <!--<ul class="nav navbar-nav navbar-right pull-right">
+                        <ul class="nav navbar-nav navbar-right pull-right">
                             <li class="dropdown hidden-xs">
                                 <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="true">
                                     <i class="md md-notifications"></i> <span class="badge badge-xs badge-danger">3</span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-lg">
                                     <li class="text-center notifi-title">Notification</li>
-                                    <li class="list-group">-->
-                        <!-- list item-->
-                        <!--<a href="javascript:void(0);" class="list-group-item">
-                            <div class="media">
-                                <div class="pull-left">
-                                    <em class="fa fa-user-plus fa-2x text-info"></em>
-                                </div>
-                                <div class="media-body clearfix">
-                                    <div class="media-heading">New user registered</div>
-                                    <p class="m-0">
-                                        <small>You have 10 unread messages</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>-->
-                        <!-- list item-->
-                        <!--<a href="javascript:void(0);" class="list-group-item">
-                            <div class="media">
-                                <div class="pull-left">
-                                    <em class="fa fa-diamond fa-2x text-primary"></em>
-                                </div>
-                                <div class="media-body clearfix">
-                                    <div class="media-heading">New settings</div>
-                                    <p class="m-0">
-                                        <small>There are new settings available</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>-->
-                        <!-- list item-->
-                        <!--<a href="javascript:void(0);" class="list-group-item">
-                            <div class="media">
-                                <div class="pull-left">
-                                    <em class="fa fa-bell-o fa-2x text-danger"></em>
-                                </div>
-                                <div class="media-body clearfix">
-                                    <div class="media-heading">Updates</div>
-                                    <p class="m-0">
-                                        <small>
-                                            There are
-                                            <span class="text-primary">2</span> new updates available
-                                        </small>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>-->
-                        <!-- last list item -->
-                        <!--<a href="javascript:void(0);" class="list-group-item">
+                                    <li class="list-group">
+                                        <!-- list item-->
+                                        <a href="javascript:void(0);" class="list-group-item">
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <em class="fa fa-user-plus fa-2x text-info"></em>
+                                                </div>
+                                                <div class="media-body clearfix">
+                                                    <div class="media-heading">New user registered</div>
+                                                    <p class="m-0">
+                                                        <small>You have 10 unread messages</small>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <!-- list item-->
+                                        <a href="javascript:void(0);" class="list-group-item">
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <em class="fa fa-diamond fa-2x text-primary"></em>
+                                                </div>
+                                                <div class="media-body clearfix">
+                                                    <div class="media-heading">New settings</div>
+                                                    <p class="m-0">
+                                                        <small>There are new settings available</small>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <!-- list item-->
+                                        <a href="javascript:void(0);" class="list-group-item">
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <em class="fa fa-bell-o fa-2x text-danger"></em>
+                                                </div>
+                                                <div class="media-body clearfix">
+                                                    <div class="media-heading">Updates</div>
+                                                    <p class="m-0">
+                                                        <small>
+                                                            There are
+                                                            <span class="text-primary">2</span> new updates available
+                                                        </small>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <!-- last list item -->
+                                        <a href="javascript:void(0);" class="list-group-item">
                                             <small>See all notifications</small>
                                         </a>
                                     </li>
@@ -139,15 +135,13 @@
                                     <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> Logout</a></li>
                                 </ul>
                             </li>
-                        </ul>-->
+                        </ul>
                     </div>
                     <!--/.nav-collapse -->
                 </div>
             </div>
         </div>
-
-        @*<partial name="_Menu" />*@
-
+        <partial name="_Menu"></partial>
         <div class="content-page">
             <!-- Start content -->
             <div class="content">
@@ -160,7 +154,7 @@
             </div> <!-- content -->
 
             <footer class="footer text-right">
-                2020 © موسسه آموزشی آتریا.
+                2015 © Moltran.
             </footer>
 
         </div>
@@ -220,28 +214,22 @@
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 
-    <script src="~/AdminTheme/assets/js/site.js"></script>
 
-    <script src="~/AdminTheme/assets/js/persian-date.min.js"></script>
-    <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
+    <script src="~/AdminTheme/assets/js/site.js"></script>
 
     @RenderSection("Scripts", false)
 
-    <script>
-        $('.persianDateInput').persianDatepicker({
-            format: 'YYYY/MM/DD',
-            autoClose: true,
-            initialValueType: "persian"
-        });
-    </script>
+    <!-- <script type="text/javascript"> -->
+    <!-- /* ============================================== -->
+    <!-- Counter Up -->
+    <!-- =============================================== */ -->
+    <!-- jQuery(document).ready(function($) { -->
+    <!-- $('.counter').counterUp({ -->
+    <!-- delay: 100, -->
+    <!-- time: 1200 -->
+    <!-- }); -->
+    <!-- }); -->
+    <!-- </script> -->
 
-    <script src="https://cdn.tiny.cloud/1/03bywyfc22f080o11wndvso5su892zkphj49li728tkw9f3f/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
-    <script>
-        tinymce.init({
-            selector: '#BodyContent',
-            plugins: 'advlist autolink lists link image charmap print preview hr anchor pagebreak',
-            toolbar_mode: 'floating',
-        });
-    </script>
 </body>
 </html>

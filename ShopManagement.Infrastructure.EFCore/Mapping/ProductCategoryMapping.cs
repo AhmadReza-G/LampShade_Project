@@ -14,6 +14,11 @@ public class ProductCategoryMapping : IEntityTypeConfiguration<ProductCategory>
     {
         builder.ToTable("ProductCategories");
         builder.HasKey(x => x.Id);
+
+        builder.HasMany(x => x.Products)
+            .WithOne(x => x.Category)
+            .HasForeignKey(x => x.CategoryId);
+
         builder.Property(x => x.Name).HasMaxLength(255);
         builder.Property(x => x.Description).HasMaxLength(255);
         builder.Property(x => x.Picture).HasMaxLength(1000);

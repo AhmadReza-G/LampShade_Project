@@ -8,12 +8,15 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\S
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\ServiceHost.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Azure.Core.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Azure.Identity.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Humanizer.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -24,6 +27,8 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\M
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\System.CodeDom.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\System.Drawing.Common.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
@@ -80,9 +85,3 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\r
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\ServiceHost.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\ServiceHost.genruntimeconfig.cache
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\ref\ServiceHost.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\scopedcss\Areas\Administration\Pages\Shared\_AdminLayout.cshtml.rz.scp.css
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Humanizer.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Mono.TextTemplating.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\System.CodeDom.dll

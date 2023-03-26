@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace _0_Framework.Application;
 public class OperationResult
 {
-    private bool IsSucceded { get; set; } = false;
-    private string Message { get; set; } = string.Empty;
+    public bool IsSucceded { get; set; } = false;
+    public string Message { get; set; } = string.Empty;
     public OperationResult Succeded(string message = "عملیات با موفقیت انجام شد.")
     {
         IsSucceded = true;
