@@ -85,3 +85,5 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\r
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\ServiceHost.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\ServiceHost.genruntimeconfig.cache
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\ref\ServiceHost.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\01_LampshadeQuery.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\01_LampshadeQuery.pdb

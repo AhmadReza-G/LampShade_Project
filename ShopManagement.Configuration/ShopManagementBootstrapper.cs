@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using _01_LampshadeQuery.Contracts.Slide;
+using _01_LampshadeQuery.Query;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
 using ShopManagement.Application.Contracts.Product;
@@ -28,6 +30,8 @@ public class ShopManagementBootstrapper
 
         services.AddTransient<ISlideRepository, SlideRepository>();
         services.AddTransient<ISlideApplication,SlideApplication>();
+
+        services.AddTransient<ISlideQuery,SlideQuery>();
 
         services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
 

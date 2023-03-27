@@ -28,8 +28,9 @@
     },
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "Administration/Shop/ProductCategories",
+      //"launchBrowser": true,
+      "launchBrowser": false,
+      //"launchUrl": "Administration/Shop/ProductCategories",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

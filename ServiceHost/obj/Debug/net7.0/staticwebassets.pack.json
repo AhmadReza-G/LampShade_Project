@@ -1241,12 +1241,416 @@
       "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-9.jpg"
     },
     {
-      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\css\\Custom.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\Custom.css"
     },
     {
-      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\css\\vendors.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\vendors.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\ionicons28b5.eot",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\ionicons28b5.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\ionicons28b5.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\ionicons28b5.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\ionicons28b5.ttf",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\ionicons28b5.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\ionicons28b5.woff",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\ionicons28b5.woff"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\backgrounds\\bkg_testimonials.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\backgrounds\\bkg_testimonials.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\backgrounds\\category-image-1820x400.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\backgrounds\\category-image-1820x400.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\banner7.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\banner7.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\banner8.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\banner8.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\banner9.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\banner9.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\img-bottom-menu.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\img-bottom-menu.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\img1-middle-eposi1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\img1-middle-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\img1-middle-eposi2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\img1-middle-eposi2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\img1-middle-eposi3.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\img1-middle-eposi3.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\img2-middle-eposi1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\img2-middle-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\img2-middle-eposi2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\img2-middle-eposi2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\img2-middle-eposi3.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\img2-middle-eposi3.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\slider-banner2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\banners\\slider-banner2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\blog\\1-1170x743.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\blog\\1-1170x743.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\blog\\2-1170x743.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\blog\\2-1170x743.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\blog\\3-1170x743.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\blog\\3-1170x743.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\blog\\comment-icon.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\blog\\comment-icon.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\blog\\slider\\1-370x235.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\blog\\slider\\1-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\blog\\slider\\2-370x235.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\blog\\slider\\2-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\blog\\slider\\3-370x235.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\blog\\slider\\3-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\blog\\slider\\4-370x235.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\blog\\slider\\4-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\blog\\slider\\5-370x235.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\blog\\slider\\5-370x235.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\category\\img2-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img4-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\category\\img4-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\hero-slider\\slider1-eposi1-1820x785.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\hero-slider\\slider1-eposi1-1820x785.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\hero-slider\\slider2-eposi1-1820x785.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\hero-slider\\slider2-eposi1-1820x785.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\hero-slider\\slider3-eposi1-1820x785.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\hero-slider\\slider3-eposi1-1820x785.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\de-de.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\de-de.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\en-gb.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\en-gb.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\free_shipping.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\free_shipping.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\grid-3-column-hover.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\grid-3-column-hover.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\grid-3-column.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\grid-3-column.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\grid-4-column-hover.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\grid-4-column-hover.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\grid-4-column.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\grid-4-column.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\grid-5-column-hover.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\grid-5-column-hover.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\grid-5-column.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\grid-5-column.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\icon_testimonials.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\icon_testimonials.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\list-hover.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\list-hover.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\list.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\list.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\money_back.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\money_back.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\support247.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\icons\\support247.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\logo-footer-6.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\logo-footer-6.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\10-100x133.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\10-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\10-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\10-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\10_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\10_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\11-100x133.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\11-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\12-100x133.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\12-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\13-100x133.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\13-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\1_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\1_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\2-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\2-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\2_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\2_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\3-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\3-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\3_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\3_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\4-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\4-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\4_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\4_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\5-100x133.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\5-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\5-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\5-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\5_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\5_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\6-100x133.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\6-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\6-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\6-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\6_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\6_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\7-100x133.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\7-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\7-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\7-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\7_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\7_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\8-100x133.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\8-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\8-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\8-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\8_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\8_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\9-100x133.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\9-100x133.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\9-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\9-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\9_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\9_1-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\big1-1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\big1-1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\big1-2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\big1-2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\big1-3.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\big1-3.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\big1-4.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\big1-4.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\big1-5.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\big1-5.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\product-1-80x106.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\product-1-80x106.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\product-2-80x106.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\product-2-80x106.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\product-3-80x106.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\products\\product-3-80x106.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\testimonial\\testimor1-72x72.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\testimonial\\testimor1-72x72.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\testimonial\\testimor2-72x72.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\testimonial\\testimor2-72x72.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\img\\testimonial\\testimor3-72x72.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\testimonial\\testimor3-72x72.png"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\js\\active.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\active.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\js\\vendors.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\vendors.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
       "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\lib\\bootstrap\\LICENSE",
