@@ -1,4 +1,5 @@
-﻿using _0_Framework.Infrastructure;
+﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductPicture;
@@ -39,7 +40,7 @@ public class ProductPictureRepository : RepositoryBase<long, ProductPicture>, IP
             {
                 Id = x.Id,
                 Picture = x.Picture,
-                CreationDate = x.CreationDate.ToString(),
+                CreationDate = x.CreationDate.ToFarsi(),
                 Product = x.Product.Name,
                 ProductId = x.ProductId,
                 IsRemoved = x.IsRemoved

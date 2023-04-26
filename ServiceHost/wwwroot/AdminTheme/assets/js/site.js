@@ -35,6 +35,10 @@ $(document).ready(function () {
     $("#MainModal").on("shown.bs.modal",
         function () {
             window.location.hash = "##";
+            $('.persianDateInput').persianDatepicker({
+                format: 'YYYY/MM/DD',
+                autoClose: true
+            });
         });
 
     $(document).on("submit",
@@ -72,13 +76,14 @@ $(document).ready(function () {
 function CallBackHandler(data, action, form) {
     switch (action) {
         case "Message":
-            alert(data.message);
+            alert(data.Message);
             break;
         case "Refresh":
-            if (data.isSucceded) {
+            if (data.IsSucceded) {
                 window.location.reload();
             } else {
                 alert(data.message);
+                window.location.reload();
             }
             break;
         case "RefereshList":

@@ -165,6 +165,10 @@
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\material-design-iconic-font.min.css"
     },
     {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\persian-datepicker.min.css"
+    },
+    {
       "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\style-responsive.css",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\style-responsive.css"
     },
@@ -817,6 +821,14 @@
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\npm.js"
     },
     {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-date.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-date.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-datepicker.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-datepicker.min.js"
+    },
+    {
       "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\site.js",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\site.js"
     },
@@ -1251,6 +1263,26 @@
     {
       "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\css\\vendors.css",
       "PackagePath": "staticwebassets\\Theme\\assets\\css\\vendors.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.eot",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\IranianSans.eot"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\IranianSans.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.ttf",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\IranianSans.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.woff",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\IranianSans.woff"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.woff2",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\IranianSans.woff2"
     },
     {
       "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\fontawesome-webfont3e6e.eot",

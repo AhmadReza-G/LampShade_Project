@@ -1,4 +1,5 @@
-﻿using _0_Framework.Infrastructure;
+﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.Slide;
@@ -42,7 +43,7 @@ public class SlideRepository : RepositoryBase<long, Slide>, ISlideRepository
             Picture = x.Picture,
             Heading = x.Heading,
             Title = x.Title,
-            CreationDate = x.CreationDate.ToString(),
+            CreationDate = x.CreationDate.ToFarsi(),
             IsRemoved = x.IsRemoved
         }).OrderByDescending(x => x.Id).ToList();
     }

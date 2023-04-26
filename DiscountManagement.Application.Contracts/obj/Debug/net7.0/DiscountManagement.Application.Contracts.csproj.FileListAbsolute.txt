@@ -1,0 +1,17 @@
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\bin\Debug\net7.0\DiscountManagement.Application.Contracts.deps.json
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\bin\Debug\net7.0\DiscountManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\bin\Debug\net7.0\0_Framework.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\bin\Debug\net7.0\0_Framework.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.AssemblyInfo.cs
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.csproj.CopyComplete
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\obj\Debug\net7.0\refint\DiscountManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\obj\Debug\net7.0\ref\DiscountManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Application.Contracts\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
