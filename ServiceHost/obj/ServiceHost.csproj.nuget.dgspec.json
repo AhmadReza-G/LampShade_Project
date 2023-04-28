@@ -482,6 +482,9 @@
             "projectReferences": {
               "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\0_Framework\\0_Framework.csproj"
+              },
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }

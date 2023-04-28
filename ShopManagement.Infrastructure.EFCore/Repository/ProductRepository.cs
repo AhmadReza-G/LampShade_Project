@@ -2,14 +2,7 @@
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
-using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductAgg;
-using ShopManagement.Domain.ProductCategoryAgg;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository;
 public class ProductRepository : RepositoryBase<long, Product>, IProductRepository
@@ -36,7 +29,6 @@ public class ProductRepository : RepositoryBase<long, Product>, IProductReposito
             Keywords = x.Keywords,
             Slug = x.Slug,
             MetaDescription = x.MetaDescription,
-            UnitPrice = x.UnitPrice,
             CategoryId = x.CategoryId
         }).FirstOrDefault(x => x.Id == id);
     }
@@ -59,9 +51,7 @@ public class ProductRepository : RepositoryBase<long, Product>, IProductReposito
                 Code = x.Code,
                 CategoryId = x.CategoryId,
                 Category = x.Category.Name,
-                UnitPrice = x.UnitPrice,
-                CreationDate = x.CreationDate.ToFarsi(),
-                IsInStock = x.IsInStock
+                CreationDate = x.CreationDate.ToFarsi()
             });
         if (!string.IsNullOrWhiteSpace(searchModel.Name))
             query = query.Where(x => x.Name.Contains(searchModel.Name));

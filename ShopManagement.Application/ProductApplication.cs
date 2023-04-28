@@ -26,8 +26,7 @@ public class ProductApplication : IProductApplication
         if (_productRepository.IsExists(x => x.Name == command.Name))
             return operation.Failed(ApplicationMessages.DuplicatedRecord);
         var slug = command.Slug.Slugify();
-        var product = new Product(command.Name, command.Code,
-            command.UnitPrice, command.ShortDescription,
+        var product = new Product(command.Name, command.Code, command.ShortDescription,
             command.Description, command.Picture,
             command.PictureAlt, command.PictureTitle,
             slug, command.Keywords, command.MetaDescription,
@@ -47,8 +46,7 @@ public class ProductApplication : IProductApplication
         if (_productRepository.IsExists(x => x.Name == command.Name && x.Id != command.Id))
             return operation.Failed(ApplicationMessages.DuplicatedRecord);
         var slug = command.Slug.Slugify();
-        product.Edit(command.Name, command.Code,
-            command.UnitPrice, command.ShortDescription,
+        product.Edit(command.Name, command.Code, command.ShortDescription,
             command.Description, command.Picture,
             command.PictureAlt, command.PictureTitle,
             slug, command.Keywords, command.MetaDescription,
@@ -66,28 +64,6 @@ public class ProductApplication : IProductApplication
     public List<ProductViewModel> GetProducts()
     {
         return _productRepository.GetProducts();
-    }
-
-    public OperationResult InStock(long id)
-    {
-        var operation = new OperationResult();
-        var product = _productRepository.GetBy(id);
-        if (product is null)
-            return operation.Failed(ApplicationMessages.RecordNotFound);
-        product.InStock();
-        _productRepository.SaveChanges();
-        return operation.Succeded();
-    }
-
-    public OperationResult NotInStock(long id)
-    {
-        var operation = new OperationResult();
-        var product = _productRepository.GetBy(id);
-        if (product is null)
-            return operation.Failed(ApplicationMessages.RecordNotFound);
-        product.NotInStock();
-        _productRepository.SaveChanges();
-        return operation.Succeded();
     }
 
     public List<ProductViewModel> Search(ProductSearchModel searchModel)

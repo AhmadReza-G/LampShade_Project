@@ -6,5 +6,6 @@ public interface IInventoryRepository : IRepository<long, Inventory>
 {
     EditInventory GetDetails(long id);
     List<InventoryViewModel> Search(InventorySearchModel searchModel);
+    List<InventoryOperationViewModel> GetOperationLog(long inventoryId);
     Inventory Get(long productId);
 }

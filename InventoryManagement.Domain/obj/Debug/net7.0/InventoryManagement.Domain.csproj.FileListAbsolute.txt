@@ -15,3 +15,5 @@ D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Domain\obj
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Domain\obj\Debug\net7.0\refint\InventoryManagement.Domain.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Domain\obj\Debug\net7.0\InventoryManagement.Domain.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Domain\obj\Debug\net7.0\ref\InventoryManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Domain\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Domain\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb

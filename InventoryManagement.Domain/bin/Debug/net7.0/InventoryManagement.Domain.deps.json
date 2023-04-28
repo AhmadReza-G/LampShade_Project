@@ -136,10 +136,19 @@
       },
       "InventoryManagement.Application.Contracts/1.0.0": {
         "dependencies": {
-          "0_Framework": "1.0.0"
+          "0_Framework": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "InventoryManagement.Application.Contracts.dll": {}
+        }
+      },
+      "ShopManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "ShopManagement.Application.Contracts.dll": {}
         }
       }
     }
@@ -233,6 +242,11 @@
       "sha512": ""
     },
     "InventoryManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShopManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

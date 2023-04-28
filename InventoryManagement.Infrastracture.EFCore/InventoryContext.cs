@@ -1,12 +1,6 @@
 ﻿using InventoryManagement.Domain.InventoryAgg;
 using InventoryManagement.Infrastracture.EFCore.Mapping;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InventoryManagement.Infrastracture.EFCore;
 public class InventoryContext : DbContext
