@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LB9i31DhpSuCh2E/lTpTgYt/zdRq/IRpu34cUXXBpe6Jol1UdMuIesjIhXCz9N5vZZCduBYYslVJ7HLBE+Ni/g==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Configuration\\InventoryManagement.Configuration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

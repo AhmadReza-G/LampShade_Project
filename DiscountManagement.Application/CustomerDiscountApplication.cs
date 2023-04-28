@@ -1,11 +1,6 @@
 ﻿using _0_Framework.Application;
 using DiscountManagement.Application.Contracts.CustomerDiscount;
 using DiscountManagement.Domain.CustomerDiscountAgg;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DiscountManagement.Application;
 public class CustomerDiscountApplication : ICustomerDiscountApplication
