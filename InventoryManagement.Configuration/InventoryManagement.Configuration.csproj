@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryManagement.Application\InventoryManagement.Application.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Infrastracture.EFCore\InventoryManagement.Infrastracture.EFCore.csproj" />
+  </ItemGroup>
+
 </Project>

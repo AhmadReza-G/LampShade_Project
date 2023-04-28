@@ -97,3 +97,13 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\D
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\DiscountManagement.Domain.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Configuration.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastracture.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Configuration.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Domain.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastracture.EFCore.pdb
