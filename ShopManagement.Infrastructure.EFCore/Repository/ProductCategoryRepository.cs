@@ -19,7 +19,7 @@ public class ProductCategoryRepository : RepositoryBase<long, ProductCategory>, 
             Id = x.Id,
             Name = x.Name,
             Description = x.Description,
-            Picture = x.Picture,
+            //Picture = x.Picture,
             PictureAlt = x.PictureAlt,
             PictureTitle = x.PictureTitle,
             Keywords = x.Keywords,
@@ -35,6 +35,11 @@ public class ProductCategoryRepository : RepositoryBase<long, ProductCategory>, 
             Id = x.Id,
             Name = x.Name
         }).ToList();
+    }
+
+    public string GetSlugBy(long id)
+    {
+        return _context.ProductCategories.Select(x => new { x.Id, x.Slug }).FirstOrDefault(x => x.Id == id).Slug;
     }
 
     public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)

@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.ProductCategory;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,9 @@ public class CreateProduct
 
     public string? ShortDescription { get; set; }
     public string? Description { get; set; }
-    public string? Picture { get; set; }
+    [FileExtentionLimitation(new string[] { ".jpg", ".jpeg", ".png" }, ErrorMessage = ValidationMessages.InvalidFileFormat)]
+    [MaxFileSize(3 * 1024 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]
+    public IFormFile Picture { get; set; }
     public string? PictureAlt { get; set; }
     public string? PictureTitle { get; set; }
 

@@ -43,24 +43,29 @@ $(document).ready(function () {
 
     $(document).on("submit",
         'form[data-ajax="true"]',
-        function () {
+        function (e) {
+            e.preventDefault();
             var form = $(this);
             const method = form.attr("method").toLocaleLowerCase();
             const url = form.attr("action");
-            const data = form.serializeArray();
             var action = form.attr("data-action");
             if (method === "get") {
+                const data = form.serializeArray();
                 $.get(url,
                     data,
                     function (data) {
                         CallBackHandler(data, action, form);
                     });
             } else {
+                var formData = new FormData(this);
                 $.ajax({
                     url: url,
                     type: "post",
-                    data: data,
+                    data: formData,
+                    enctype: "multipart/form-data",
                     dataType: "json",
+                    processData: false,
+                    contentType: false,
                     success: function (data) {
                         CallBackHandler(data, action, form);
                     },
@@ -179,3 +184,28 @@ function handleAjaxCall(method, url, data) {
             });
     }
 }
+jQuery.validator.addMethod("maxFileSize",
+    function (value, element, params) {
+        var size = element.files[0].size;
+        var maxSize = 3 * 1024 * 1024;
+        if (size > maxSize)
+            return false;
+        else {
+            return true;
+        }
+    });
+jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
+
+jQuery.validator.addMethod("fileExtentionLimit",
+    function (value, element, params) {
+        var fileExtension = ['jpeg', 'jpg', 'png'];
+        var val = $(element).val();
+        var ext = val.substring(val.lastIndexOf('.') + 1).toLowerCase();
+        if ($.inArray(ext, fileExtension) == -1) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    });
+jQuery.validator.unobtrusive.adapters.addBool("fileExtentionLimit");

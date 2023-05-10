@@ -1,11 +1,6 @@
 ﻿using _0_Framework.Domain;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Domain.ProductAgg;
 public class Product : EntityBase
@@ -53,7 +48,8 @@ public class Product : EntityBase
         Code = code;
         ShortDescription = shortDescription;
         Description = description;
-        Picture = picture;
+        if (!string.IsNullOrWhiteSpace(picture))
+            Picture = picture;
         PictureAlt = pictureAlt;
         PictureTitle = pictureTitle;
         Slug = slug;

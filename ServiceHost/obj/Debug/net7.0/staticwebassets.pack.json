@@ -1253,6 +1253,30 @@
       "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-9.jpg"
     },
     {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\img4-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\اتاق-خواب\\img4-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\2020-08-09-19-32-01-img3-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\2020-08-09-19-32-01-img3-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\bootstrap-editable.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\bootstrap-editable.js",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\bootstrap-editable.js"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\فضای-نگهدارنده\\img1-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\فضای-نگهدارنده\\img1-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\مطالعه\\Product09.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\مطالعه\\Product09.jpg"
+    },
+    {
       "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\css\\Custom.css",
       "PackagePath": "staticwebassets\\Theme\\assets\\css\\Custom.css"
     },

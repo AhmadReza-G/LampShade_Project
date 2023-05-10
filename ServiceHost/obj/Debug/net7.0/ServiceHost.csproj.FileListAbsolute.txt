@@ -107,3 +107,4 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\I
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Domain.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastracture.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs

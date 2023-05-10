@@ -23,7 +23,7 @@ public class ProductRepository : RepositoryBase<long, Product>, IProductReposito
             Code = x.Code,
             ShortDescription = x.ShortDescription,
             Description = x.Description,
-            Picture = x.Picture,
+            //Picture = x.Picture,
             PictureAlt = x.PictureAlt,
             PictureTitle = x.PictureTitle,
             Keywords = x.Keywords,
@@ -40,6 +40,12 @@ public class ProductRepository : RepositoryBase<long, Product>, IProductReposito
             Name = x.Name
         }).ToList();
     }
+
+    public Product GetProductWithCategory(long id)
+    {
+        return _context.Products.Include(x => x.Category).FirstOrDefault(x => x.Id == id);
+    }
+
     public List<ProductViewModel> Search(ProductSearchModel searchModel)
     {
         var query = _context.Products.Include(x => x.Category)
