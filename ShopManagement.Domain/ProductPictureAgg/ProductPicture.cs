@@ -1,10 +1,5 @@
 ﻿using _0_Framework.Domain;
 using ShopManagement.Domain.ProductAgg;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Domain.ProductPictureAgg;
 public class ProductPicture : EntityBase
@@ -26,7 +21,8 @@ public class ProductPicture : EntityBase
     public void Edit(long productId, string picture, string pictureAlt, string pictureTitle)
     {
         ProductId = productId;
-        Picture = picture;
+        if (!string.IsNullOrWhiteSpace(picture))
+            Picture = picture;
         PictureAlt = pictureAlt;
         PictureTitle = pictureTitle;
     }
