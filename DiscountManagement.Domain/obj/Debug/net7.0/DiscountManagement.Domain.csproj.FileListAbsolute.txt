@@ -3,8 +3,10 @@ D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\bin\
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\bin\Debug\net7.0\DiscountManagement.Domain.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\bin\Debug\net7.0\0_Framework.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\bin\Debug\net7.0\DiscountManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\bin\Debug\net7.0\0_Framework.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.csproj.AssemblyReference.cache
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.AssemblyInfoInputs.cache
@@ -15,5 +17,3 @@ D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\obj\
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\obj\Debug\net7.0\refint\DiscountManagement.Domain.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\obj\Debug\net7.0\DiscountManagement.Domain.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\obj\Debug\net7.0\ref\DiscountManagement.Domain.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Domain\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GWmKlxqjrX3k8OPmreXjAx+ocVooIlF8aN3Ng4HAAwU=",
+  "Hash": "JZWkv93vJ/IK9OUYHYrYG2MqZndPk2YtGq0f/168Et8=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -5931,6 +5931,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\Slides\\2023-05-11-11-11-14-product01.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "ProductPictures/Slides/2023-05-11-11-11-14-product01.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductPictures\\Slides\\2023-05-11-11-11-14-product01.jpg"
     },
     {
       "Identity": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\img4-top-eposi1.jpg",

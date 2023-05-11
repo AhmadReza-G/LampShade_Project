@@ -1253,6 +1253,10 @@
       "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-9.jpg"
     },
     {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\Slides\\2023-05-11-11-11-14-product01.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\Slides\\2023-05-11-11-11-14-product01.jpg"
+    },
+    {
       "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\img4-top-eposi1.jpg",
       "PackagePath": "staticwebassets\\ProductPictures\\اتاق-خواب\\img4-top-eposi1.jpg"
     },

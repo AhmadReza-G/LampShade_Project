@@ -1,4 +1,6 @@
-﻿namespace _01_LampshadeQuery.Contracts.Product;
+﻿using ShopManagement.Domain.ProductPictureAgg;
+
+namespace _01_LampshadeQuery.Contracts.Product;
 public class ProductQueryModel
 {
     public long Id { get; set; }
@@ -14,4 +16,19 @@ public class ProductQueryModel
     public string Slug { get; set; }
     public bool HasDiscount { get; set; }
     public string DiscountExpireDate { get; set; }
+    public string Code { get; set; }
+    public string ShortDescription { get; set; }
+    public string? Description { get; set; }
+    public string Keywords { get; set; }
+    public string MetaDescription { get; set; }
+    public bool IsInStock { get; set; }
+    public List<ProductPicturesQueryModel> Pictures { get; set; }
+}
+public class ProductPicturesQueryModel
+{
+    public long ProductId { get; set; }
+    public string? Picture { get; set; }
+    public string? PictureAlt { get; set; }
+    public string? PictureTitle { get; set; }
+    public bool IsRemoved { get; set; }
 }

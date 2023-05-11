@@ -3,8 +3,12 @@ D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Applicatio
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\InventoryManagement.Application.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\0_Framework.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\InventoryManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\InventoryManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\InventoryManagement.Domain.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\0_Framework.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\obj\Debug\net7.0\InventoryManagement.Application.csproj.AssemblyReference.cache
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\obj\Debug\net7.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\obj\Debug\net7.0\InventoryManagement.Application.AssemblyInfoInputs.cache
@@ -15,7 +19,3 @@ D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Applicatio
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\obj\Debug\net7.0\refint\InventoryManagement.Application.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\obj\Debug\net7.0\InventoryManagement.Application.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\obj\Debug\net7.0\ref\InventoryManagement.Application.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\InventoryManagement.Domain.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\InventoryManagement.Domain.pdb
-D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Application\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb

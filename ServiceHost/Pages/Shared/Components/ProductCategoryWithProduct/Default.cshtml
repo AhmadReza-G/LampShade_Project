@@ -31,24 +31,24 @@
                                  aria-labelledby="product-tab-1">
                                 <div class="single-row-slider-wrapper">
                                     <div class="ht-slick-slider" data-slick-setting='{
-                                "slidesToShow": 4,
-                                "slidesToScroll": 1,
-                                "arrows": true,
-                                "autoplay": false,
-                                "autoplaySpeed": 5000,
-                                "speed": 1000,
-                                "infinite": true,
-                                "rtl": true,
-                                "prevArrow": {"buttonClass": "slick-prev", "iconClass": "ion-chevron-left" },
-                                "nextArrow": {"buttonClass": "slick-next", "iconClass": "ion-chevron-right" }
-                            }' data-slick-responsive='[
-                                {"breakpoint":1501, "settings": {"slidesToShow": 4} },
-                                {"breakpoint":1199, "settings": {"slidesToShow": 4, "arrows": false} },
-                                {"breakpoint":991, "settings": {"slidesToShow": 3, "arrows": false} },
-                                {"breakpoint":767, "settings": {"slidesToShow": 2, "arrows": false} },
-                                {"breakpoint":575, "settings": {"slidesToShow": 2, "arrows": false} },
-                                {"breakpoint":479, "settings": {"slidesToShow": 1, "arrows": false} }
-                            ]'>
+                                    "slidesToShow": 4,
+                                    "slidesToScroll": 1,
+                                    "arrows": true,
+                                    "autoplay": false,
+                                    "autoplaySpeed": 5000,
+                                    "speed": 1000,
+                                    "infinite": true,
+                                    "rtl": true,
+                                    "prevArrow": {"buttonClass": "slick-prev", "iconClass": "ion-chevron-left" },
+                                    "nextArrow": {"buttonClass": "slick-next", "iconClass": "ion-chevron-right" }
+                                }' data-slick-responsive='[
+                                    {"breakpoint":1501, "settings": {"slidesToShow": 4} },
+                                    {"breakpoint":1199, "settings": {"slidesToShow": 4, "arrows": false} },
+                                    {"breakpoint":991, "settings": {"slidesToShow": 3, "arrows": false} },
+                                    {"breakpoint":767, "settings": {"slidesToShow": 2, "arrows": false} },
+                                    {"breakpoint":575, "settings": {"slidesToShow": 2, "arrows": false} },
+                                    {"breakpoint":479, "settings": {"slidesToShow": 1, "arrows": false} }
+                                ]'>
                                         @foreach (var product in category.Products)
                                         {
                                             <div class="col">
@@ -60,7 +60,7 @@
                                                                 <span class="sale">-@product.DiscountRate%</span>
                                                             </div>
                                                         }
-                                                        <a href="single-product.html">
+                                                        <a asp-page="/Product" asp-route-id="@product.Slug">
                                                             <img src="~/ProductPictures/@product.Picture" title="@product.PictureTitle" class="img-fluid"
                                                                  alt="@product.PictureAlt">
                                                         </a>
@@ -68,7 +68,7 @@
                                                     <div class="single-grid-product__content">
                                                         <div class="single-grid-product__category-rating">
                                                             <span class="category">
-                                                                <a href="shop-left-sidebar.html">@product.Category</a>
+                                                                <a asp-page="/ProductCategory" asp-route-id="@category.Slug">@product.Category</a>
                                                             </span>
                                                             <span class="rating">
                                                                 <i class="ion-android-star active"></i>
@@ -80,7 +80,7 @@
                                                         </div>
 
                                                         <h3 class="single-grid-product__title">
-                                                            <a href="single-product.html">
+                                                            <a asp-page="/Product" asp-route-id="@product.Slug">
                                                                 @product.Name
                                                             </a>
                                                         </h3>
