@@ -23,12 +23,5 @@ public class ProductQueryModel
     public string MetaDescription { get; set; }
     public bool IsInStock { get; set; }
     public List<ProductPicturesQueryModel> Pictures { get; set; }
-}
-public class ProductPicturesQueryModel
-{
-    public long ProductId { get; set; }
-    public string? Picture { get; set; }
-    public string? PictureAlt { get; set; }
-    public string? PictureTitle { get; set; }
-    public bool IsRemoved { get; set; }
+    public List<CommentQueryModel> Comments { get; set; }
 }

@@ -22,6 +22,9 @@ internal class ProductMapping : IEntityTypeConfiguration<Product>
         builder.HasMany(x => x.ProductPictures)
             .WithOne(x => x.Product)
             .HasForeignKey(x => x.ProductId);
+        builder.HasMany(x => x.Comments)
+            .WithOne(x => x.Product)
+            .HasForeignKey(x => x.ProductId);
 
         builder.Property(x => x.Name).HasMaxLength(255);
         builder.Property(x => x.Code).HasMaxLength(15);
