@@ -1,4 +1,5 @@
 using _0_Framework.Application;
+using BlogManagement.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Configuration;
 using ServiceHost;
@@ -11,6 +12,7 @@ var connectionString = builder.Configuration.GetConnectionString("LampshadeDb");
 ShopManagementBootstrapper.Configure(builder.Services, connectionString);
 DiscountManagementBootstrapper.Configure(builder.Services, connectionString);
 InventoryManagementBootstrapper.Configure(builder.Services, connectionString);
+BlogManagementBootstrapper.Configure(builder.Services, connectionString);
 builder.Services.AddTransient<IFileUploader, FileUploader>();
 builder.Services.AddRazorPages();
 

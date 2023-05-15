@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Discounts/ColleagueDiscounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXENvbGxlYWd1ZURpc2NvdW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
