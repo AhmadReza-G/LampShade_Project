@@ -59,6 +59,11 @@ public class ArticleCategoryApplication : IArticleCategoryApplication
         return operationResult.Succeded();
     }
 
+    public List<ArticleCategoryViewModel> GetArticleCategories()
+    {
+        return _articleCategoryRepository.GetArticleCategories();
+    }
+
     public EditArticleCategory GetDetails(long id)
     {
         return _articleCategoryRepository.GetDetails(id);

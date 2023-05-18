@@ -24,4 +24,11 @@
     <Folder Include="wwwroot\ProductPictures\دکوری\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Areas\Administration\Pages\Blog\Articles\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

@@ -6,5 +6,6 @@ public interface IArticleCategoryRepository : IRepository<long, ArticleCategory>
 {
     List<ArticleCategoryViewModel> Search(ArticleCategorySearchModel searchModel);
     EditArticleCategory GetDetails(long id);
+    List<ArticleCategoryViewModel> GetArticleCategories();
     string GetSlugBy(long id);
 }

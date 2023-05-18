@@ -13,8 +13,8 @@ public class BlogManagementBootstrapper
 {
     public static void Configure(IServiceCollection services, string connectionString)
     {
-        //services.AddTransient<IArticleRepository, ArticleRepository>();
-        //services.AddTransient<IArticleApplication, ArticleApplication>();
+        services.AddTransient<IArticleRepository, ArticleRepository>();
+        services.AddTransient<IArticleApplication, ArticleApplication>();
 
         services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
         services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
