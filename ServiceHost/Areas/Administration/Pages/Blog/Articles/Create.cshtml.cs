@@ -8,7 +8,7 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.Articles;
 
 public class CreateModel : PageModel
 {
-    public CreateArticle Command;
+    public CreateArticle? Command;
     public SelectList ArticleCategories;
 
     private readonly IArticleApplication _articleApplication;
@@ -24,9 +24,17 @@ public class CreateModel : PageModel
     {
         ArticleCategories = new SelectList(_articleCategoryApplication.GetArticleCategories(), "Id", "Name");
     }
-
+    //public void OnGet(CreateArticle? command)
+    //{
+    //    ArticleCategories = new SelectList(_articleCategoryApplication.GetArticleCategories(), "Id", "Name");
+    //    Command = command;
+    //}
     public IActionResult OnPost(CreateArticle command)
     {
+        //if(!ModelState.IsValid)
+        //{
+        //    return RedirectToPage("./Create", command);
+        //}
         var result = _articleApplication.Create(command);
         return RedirectToPage("./Index");
     }

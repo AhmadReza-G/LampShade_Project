@@ -1,14 +1,11 @@
 ﻿using _0_Framework.Application;
 using _01_LampshadeQuery.Contracts.Product;
-using _01_LampshadeQuery.Contracts.ProductCategory;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastracture.EFCore;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.CommentAgg;
-using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
-using System.Security.Cryptography.X509Certificates;
 
 namespace _01_LampshadeQuery.Query;
 public class ProductQuery : IProductQuery
@@ -107,6 +104,7 @@ public class ProductQuery : IProductQuery
     public List<ProductQueryModel> GetLatestArrivals()
     {
         var inventory = _inventoryContext.Inventory
+            .Where(x => x.IsInStock)
             .Select(x => new { x.ProductId, x.UnitPrice })
             .ToList();
 
@@ -144,6 +142,9 @@ public class ProductQuery : IProductQuery
                 }
             }
         }
+        products = products
+            .Where(x => !string.IsNullOrWhiteSpace(x.Price))
+            .ToList();
         return products;
     }
 

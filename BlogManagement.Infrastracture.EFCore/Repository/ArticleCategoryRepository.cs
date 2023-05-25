@@ -54,19 +54,23 @@ public class ArticleCategoryRepository : RepositoryBase<long, ArticleCategory>, 
 
     public List<ArticleCategoryViewModel> Search(ArticleCategorySearchModel searchModel)
     {
-        var query = _context.ArticleCategories.Select(x => new ArticleCategoryViewModel
-        {
-            Id = x.Id,
-            CreationDate = x.CreationDate.ToFarsi(),
-            Name = x.Name,
-            Picture = x.Picture,
-            Description = x.Description,
-            ShowOrder = x.ShowOrder
-        }).AsNoTracking();
+        var query = _context.ArticleCategories
+            .Include(x => x.Articles)
+            .Select(x => new ArticleCategoryViewModel
+            {
+                Id = x.Id,
+                CreationDate = x.CreationDate.ToFarsi(),
+                Name = x.Name,
+                Picture = x.Picture,
+                Description = x.Description,
+                ShowOrder = x.ShowOrder,
+                ArticlesCount = x.Articles.Count
+            }).AsNoTracking();
 
         if (!string.IsNullOrWhiteSpace(searchModel.Name))
             query = query.Where(x => x.Name.Contains(searchModel.Name));
 
-        return query.OrderByDescending(x => x.ShowOrder).ToList();
+        return query.OrderByDescending(x => x.ShowOrder)
+            .ToList();
     }
 }

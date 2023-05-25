@@ -679,6 +679,7 @@
       },
       "01_LampshadeQuery/1.0.0": {
         "dependencies": {
+          "BlogManagement.Infrastracture.EFCore": "1.0.0",
           "DiscountManagement.Infrastructure.EFCore": "1.0.0",
           "InventoryManagement.Infrastracture.EFCore": "1.0.0",
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
@@ -695,6 +696,34 @@
         },
         "runtime": {
           "0_Framework.dll": {}
+        }
+      },
+      "BlogManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
+        "runtime": {
+          "BlogManagement.Application.Contracts.dll": {}
+        }
+      },
+      "BlogManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "BlogManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "BlogManagement.Domain.dll": {}
+        }
+      },
+      "BlogManagement.Infrastracture.EFCore/1.0.0": {
+        "dependencies": {
+          "BlogManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+        },
+        "runtime": {
+          "BlogManagement.Infrastracture.EFCore.dll": {}
         }
       },
       "DiscountManagement.Application.Contracts/1.0.0": {
@@ -1275,6 +1304,21 @@
       "sha512": ""
     },
     "0_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Infrastracture.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

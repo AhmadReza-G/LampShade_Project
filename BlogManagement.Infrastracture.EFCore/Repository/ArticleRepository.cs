@@ -35,7 +35,9 @@ public class ArticleRepository : RepositoryBase<long, Article>, IArticleReposito
 
     public Article GetWithCategory(long id)
     {
-        return _context.Articles.Include(x => x.Category).AsNoTracking().FirstOrDefault(x => x.Id == id);
+        return _context.Articles
+            .Include(x => x.Category)
+            .FirstOrDefault(x => x.Id == id);
     }
 
     public List<ArticleViewModel> Search(ArticleSearchModel searchModel)
@@ -44,7 +46,7 @@ public class ArticleRepository : RepositoryBase<long, Article>, IArticleReposito
         {
             Id = x.Id,
             Title = x.Title,
-            ShortDescription = x.ShortDescription,
+            ShortDescription = x.ShortDescription.Substring(0, Math.Min(x.ShortDescription.Length, 50)) + $"{((x.ShortDescription.Length > 50) ? "..." : "")}",
             PublishDate = x.PublishDate.ToFarsi(),
             Picture = x.Picture,
             Category = x.Category.Name

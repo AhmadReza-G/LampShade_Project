@@ -12,12 +12,13 @@
                 <h3 class="panel-title">ایجاد مقاله جدید</h3>
             </div>
             <div class="panel-body">
-                <form method="post" enctype="multipart/form-data">
+                <form method="post"
+                    enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label asp-for="Command.Title" class="control-label">نام</label>
-                                <input type="text" class="form-control" asp-for="Command.Title" onchange="makeSlug('Title', 'Slug')">
+                                <input type="text" class="form-control" asp-for="Command.Title" onchange="makeSlug('Command_Title', 'Command_Slug')">
                                 <span asp-validation-for="Command.Title" class="error"></span>
                             </div>
                         </div>
@@ -73,7 +74,7 @@
                         <div class="col-md-12">
                             <div class="form-group no-margin">
                                 <label asp-for="Command.ShortDescription" class="control-label">توضیحات کوتاه</label>
-                                <textarea class="form-control autogrow" asp-for="Command.ShortDescription" onchange="fillField('ShortDescription', 'MetaDescription')"
+                                <textarea class="form-control autogrow" asp-for="Command.ShortDescription" onchange="fillField('Command_ShortDescription', 'Command_MetaDescription')"
                                           style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
                                 <span asp-validation-for="Command.ShortDescription" class="error"></span>
                             </div>

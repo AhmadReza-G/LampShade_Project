@@ -31,3 +31,9 @@ D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\obj\Debug\ne
 D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\obj\Debug\net7.0\refint\01_LampshadeQuery.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\obj\Debug\net7.0\01_LampshadeQuery.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\obj\Debug\net7.0\ref\01_LampshadeQuery.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\BlogManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\BlogManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\BlogManagement.Infrastracture.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\BlogManagement.Infrastracture.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\BlogManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\BlogManagement.Domain.pdb
