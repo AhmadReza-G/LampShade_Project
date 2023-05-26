@@ -8,10 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlogManagement.Infrastracture.EFCore\BlogManagement.Infrastracture.EFCore.csproj" />
-    <ProjectReference Include="..\CommentManagement.Infrastracture.EFCore\CommentManagement.Infrastracture.EFCore.csproj" />
+    <ProjectReference Include="..\BlogManagement.Infrastracture.EFCore\BlogManagement.Infrastructure.EFCore.csproj" />
+    <ProjectReference Include="..\CommentManagement.Infrastracture.EFCore\CommentManagement.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\DiscountManagement.Infrastructure.EFCore\DiscountManagement.Infrastructure.EFCore.csproj" />
-    <ProjectReference Include="..\InventoryManagement.Infrastracture.EFCore\InventoryManagement.Infrastracture.EFCore.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Infrastracture.EFCore\InventoryManagement.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\ShopManagement.Infrastructure.EFCore\ShopManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>
 

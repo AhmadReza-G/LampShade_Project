@@ -11,13 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AccountManagement.Configuration\AccountManagement.Configuration.csproj" />
     <ProjectReference Include="..\BlogManagement.Configuration\BlogManagement.Configuration.csproj" />
     <ProjectReference Include="..\CommentManagement.Application.Contracts\CommentManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\CommentManagement.Configuration\CommentManagement.Configuration.csproj" />
@@ -46,6 +48,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Areas\Administration\Pages\Accounts\Account\ChangePassword.cshtml" />
+    <None Include="Areas\Administration\Pages\Accounts\Account\Create.cshtml" />
+    <None Include="Areas\Administration\Pages\Accounts\Account\Edit.cshtml" />
+    <None Include="Areas\Administration\Pages\Accounts\Account\Index.cshtml" />
+    <None Include="Areas\Administration\Pages\Accounts\Role\Create.cshtml" />
+    <None Include="Areas\Administration\Pages\Accounts\Role\Edit.cshtml" />
+    <None Include="Areas\Administration\Pages\Accounts\Role\Index.cshtml" />
     <None Include="Pages\Article.cshtml" />
   </ItemGroup>
 

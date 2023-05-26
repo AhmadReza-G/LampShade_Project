@@ -1,12 +1,7 @@
 ﻿using _0_Framework.Application;
 using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.ProductCategory;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Application.Contracts.Product;
 public class CreateProduct

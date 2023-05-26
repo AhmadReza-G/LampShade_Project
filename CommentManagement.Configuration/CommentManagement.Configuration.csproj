@@ -13,7 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CommentManagement.Application\CommentManagement.Application.csproj" />
     <ProjectReference Include="..\CommentManagement.Domain\CommentManagement.Domain.csproj" />
-    <ProjectReference Include="..\CommentManagement.Infrastracture.EFCore\CommentManagement.Infrastracture.EFCore.csproj" />
+    <ProjectReference Include="..\CommentManagement.Infrastracture.EFCore\CommentManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>
 
 </Project>

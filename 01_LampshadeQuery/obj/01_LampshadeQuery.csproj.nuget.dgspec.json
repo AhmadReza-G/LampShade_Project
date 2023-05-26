@@ -28,17 +28,17 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj"
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
               },
-              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj"
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
               },
               "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
-              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj"
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
               },
               "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
@@ -111,6 +111,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -121,7 +125,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -271,12 +275,12 @@
         }
       }
     },
-    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj": {
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj",
-        "projectName": "BlogManagement.Infrastracture.EFCore",
-        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj",
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj",
+        "projectName": "BlogManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
         "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -467,12 +471,12 @@
         }
       }
     },
-    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj": {
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj",
-        "projectName": "CommentManagement.Infrastracture.EFCore",
-        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj",
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
+        "projectName": "CommentManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
         "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -868,12 +872,12 @@
         }
       }
     },
-    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj": {
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj",
-        "projectName": "InventoryManagement.Infrastracture.EFCore",
-        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj",
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+        "projectName": "InventoryManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
         "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -1115,17 +1119,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [

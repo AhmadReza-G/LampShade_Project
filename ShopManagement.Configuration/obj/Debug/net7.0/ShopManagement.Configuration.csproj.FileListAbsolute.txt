@@ -8,7 +8,6 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\b
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Domain.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Infrastracture.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\ShopManagement.Application.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\ShopManagement.Domain.dll
@@ -23,7 +22,6 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\b
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Domain.pdb
-D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Infrastracture.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\obj\Debug\net7.0\ShopManagement.Configuration.csproj.AssemblyReference.cache
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\obj\Debug\net7.0\ShopManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
@@ -37,13 +35,15 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\o
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\obj\Debug\net7.0\ref\ShopManagement.Configuration.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\BlogManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\BlogManagement.Domain.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\BlogManagement.Infrastracture.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\BlogManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\BlogManagement.Domain.pdb
-D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\BlogManagement.Infrastracture.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\CommentManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\CommentManagement.Domain.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\CommentManagement.Infrastracture.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\CommentManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\CommentManagement.Domain.pdb
-D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\CommentManagement.Infrastracture.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\BlogManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\CommentManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\BlogManagement.Infrastructure.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\CommentManagement.Infrastructure.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Infrastructure.EFCore.pdb

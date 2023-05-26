@@ -16,6 +16,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Accounts/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Accounts/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Accounts/Account/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Accounts/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Accounts/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Accounts/Role/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Accounts/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -162,6 +190,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Areas/Administration/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Pages/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Programming/Projects/VS/LampShade_Project/Code/ServiceHost/Pages/ArticleCategory.cshtml]

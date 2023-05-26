@@ -5,12 +5,10 @@ D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configurat
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Application.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Domain.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Infrastracture.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\ShopManagement.Domain.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\ShopManagement.Infrastructure.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Application.pdb
-D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Infrastracture.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\0_Framework.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Domain.pdb
@@ -27,3 +25,5 @@ D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configurat
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\obj\Debug\net7.0\refint\InventoryManagement.Configuration.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\obj\Debug\net7.0\InventoryManagement.Configuration.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\obj\Debug\net7.0\ref\InventoryManagement.Configuration.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\InventoryManagement.Configuration\bin\Debug\net7.0\InventoryManagement.Infrastructure.EFCore.pdb

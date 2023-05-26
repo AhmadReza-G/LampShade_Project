@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -50,7 +54,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -224,8 +228,8 @@
               "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
               },
-              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj"
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -327,12 +331,12 @@
         }
       }
     },
-    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj": {
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj",
-        "projectName": "InventoryManagement.Infrastracture.EFCore",
-        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj",
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+        "projectName": "InventoryManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
         "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -574,17 +578,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [

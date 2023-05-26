@@ -15,7 +15,7 @@
     <ProjectReference Include="..\BlogManagement.Application.Contracts\BlogManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\BlogManagement.Application\BlogManagement.Application.csproj" />
     <ProjectReference Include="..\BlogManagement.Domain\BlogManagement.Domain.csproj" />
-    <ProjectReference Include="..\BlogManagement.Infrastracture.EFCore\BlogManagement.Infrastracture.EFCore.csproj" />
+    <ProjectReference Include="..\BlogManagement.Infrastracture.EFCore\BlogManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>
 
 </Project>

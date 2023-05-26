@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InventoryManagement.Application\InventoryManagement.Application.csproj" />
-    <ProjectReference Include="..\InventoryManagement.Infrastracture.EFCore\InventoryManagement.Infrastracture.EFCore.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Infrastracture.EFCore\InventoryManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>
 
 </Project>

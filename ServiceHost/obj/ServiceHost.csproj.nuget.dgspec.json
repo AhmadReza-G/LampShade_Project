@@ -28,17 +28,17 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj"
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
               },
-              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj"
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
               },
               "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
-              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj"
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
               },
               "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
@@ -111,6 +111,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -121,7 +125,333 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+        "projectName": "AccountManagement.Application.Contracts",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\0_Framework\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application\\AccountManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application\\AccountManagement.Application.csproj",
+        "projectName": "AccountManagement.Application",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application\\AccountManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              },
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj",
+        "projectName": "AccountManagement.Configuration",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              },
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application\\AccountManagement.Application.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application\\AccountManagement.Application.csproj"
+              },
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+              },
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Infrastracture.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Infrastracture.EFCore\\AccountManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
+        "projectName": "AccountManagement.Domain",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\0_Framework\\0_Framework.csproj"
+              },
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Infrastracture.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Infrastracture.EFCore\\AccountManagement.Infrastructure.EFCore.csproj",
+        "projectName": "AccountManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Infrastracture.EFCore\\AccountManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Infrastracture.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -307,8 +637,8 @@
               "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
               },
-              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj"
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -410,12 +740,12 @@
         }
       }
     },
-    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj": {
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj",
-        "projectName": "BlogManagement.Infrastracture.EFCore",
-        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastracture.EFCore.csproj",
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj",
+        "projectName": "BlogManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
         "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Infrastracture.EFCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -633,8 +963,8 @@
               "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
               },
-              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj"
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -736,12 +1066,12 @@
         }
       }
     },
-    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj": {
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj",
-        "projectName": "CommentManagement.Infrastracture.EFCore",
-        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastracture.EFCore.csproj",
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
+        "projectName": "CommentManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
         "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\CommentManagement.Infrastracture.EFCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -1294,8 +1624,8 @@
               "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
               },
-              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj"
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -1397,12 +1727,12 @@
         }
       }
     },
-    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj": {
+    "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj",
-        "projectName": "InventoryManagement.Infrastracture.EFCore",
-        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastracture.EFCore.csproj",
+        "projectUniqueName": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+        "projectName": "InventoryManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
         "outputPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Infrastracture.EFCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -1500,6 +1830,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj"
+              },
               "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Configuration\\BlogManagement.Configuration.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\BlogManagement.Configuration\\BlogManagement.Configuration.csproj"
               },
@@ -1531,11 +1864,15 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -1866,17 +2203,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [

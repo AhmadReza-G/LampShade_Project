@@ -63,7 +63,6 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\B
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\BlogManagement.Application.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\BlogManagement.Configuration.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\BlogManagement.Domain.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\BlogManagement.Infrastracture.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\DiscountManagement.Configuration.dll
@@ -73,7 +72,6 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\I
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Configuration.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Domain.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastracture.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\ShopManagement.Application.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\ShopManagement.Configuration.dll
@@ -88,7 +86,6 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\0
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\BlogManagement.Application.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\BlogManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\BlogManagement.Domain.pdb
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\BlogManagement.Infrastracture.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\DiscountManagement.Domain.pdb
@@ -96,7 +93,6 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\D
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Domain.pdb
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastracture.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\ShopManagement.Application.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\ShopManagement.Domain.pdb
@@ -122,9 +118,23 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\C
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Application.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Configuration.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Domain.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Infrastracture.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Configuration.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Application.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Domain.pdb
-D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Infrastracture.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\BlogManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\BlogManagement.Infrastructure.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Infrastructure.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\AccountManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\AccountManagement.Application.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\AccountManagement.Configuration.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\AccountManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\AccountManagement.Configuration.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\AccountManagement.Application.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\AccountManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\AccountManagement.Domain.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.pdb
