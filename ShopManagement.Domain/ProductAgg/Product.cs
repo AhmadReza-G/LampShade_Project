@@ -1,5 +1,4 @@
 ﻿using _0_Framework.Domain;
-using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 
@@ -19,7 +18,6 @@ public class Product : EntityBase
     public long CategoryId { get; private set; }
     public ProductCategory Category { get; private set; }
     public List<ProductPicture> ProductPictures { get; private set; } = new();
-    public List<Comment> Comments { get; private set; } = new();
 
     public Product(string name, string code,
         string shortDescription, string? description,

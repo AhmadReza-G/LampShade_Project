@@ -9,6 +9,8 @@
       "ServiceHost/1.0.0": {
         "dependencies": {
           "BlogManagement.Configuration": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0",
+          "CommentManagement.Configuration": "1.0.0",
           "DiscountManagement.Configuration": "1.0.0",
           "InventoryManagement.Configuration": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.4",
@@ -643,6 +645,7 @@
       "01_LampshadeQuery/1.0.0": {
         "dependencies": {
           "BlogManagement.Infrastracture.EFCore": "1.0.0",
+          "CommentManagement.Infrastracture.EFCore": "1.0.0",
           "DiscountManagement.Infrastructure.EFCore": "1.0.0",
           "InventoryManagement.Infrastracture.EFCore": "1.0.0",
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
@@ -709,6 +712,52 @@
         },
         "runtime": {
           "BlogManagement.Infrastracture.EFCore.dll": {}
+        }
+      },
+      "CommentManagement.Application/1.0.0": {
+        "dependencies": {
+          "CommentManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Application.dll": {}
+        }
+      },
+      "CommentManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Application.Contracts.dll": {}
+        }
+      },
+      "CommentManagement.Configuration/1.0.0": {
+        "dependencies": {
+          "CommentManagement.Application": "1.0.0",
+          "CommentManagement.Domain": "1.0.0",
+          "CommentManagement.Infrastracture.EFCore": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Configuration.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Domain.dll": {}
+        }
+      },
+      "CommentManagement.Infrastracture.EFCore/1.0.0": {
+        "dependencies": {
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+        },
+        "runtime": {
+          "CommentManagement.Infrastracture.EFCore.dll": {}
         }
       },
       "DiscountManagement.Application/1.0.0": {
@@ -1399,6 +1448,31 @@
       "sha512": ""
     },
     "BlogManagement.Infrastracture.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Infrastracture.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

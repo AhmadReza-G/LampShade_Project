@@ -1,58 +1,56 @@
-﻿<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lampshapde Store</title>
+    @if (ViewData["Title"] != null)
+    {
+        <title>@ViewData["Title"] - فروشگاه لوازم دکوری</title>
+    }
+    else
+    {
+        <title>فروشگاه لوازم دکوری</title>
+    }
 
-    <!-- Vendor CSS -->
+    <meta name="keywords" content="@ViewData["keywords"]" />
+    <meta name="description" content="@ViewData["metaDescription"]" />
+
     <link href="~/Theme/assets/css/vendors.css" rel="stylesheet">
-    <!-- Main CSS -->
     <link href="~/Theme/assets/css/style.css" rel="stylesheet">
-    <!-- Custom CSS -->
     <link href="~/Theme/assets/css/Custom.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <!--====================  header area ====================-->
+
     @await Component.InvokeAsync("Menu")
-    <!--====================  End of header area  ====================-->
+
     @RenderBody()
 
-    <!--====================  footer area ====================-->
     @await Component.InvokeAsync("Footer")
-    <!--====================  End of footer area  ====================-->
+
 
     <div class="search-overlay" id="search-overlay">
         <a href="javascript:void(0)" class="close-search-overlay" id="close-search-overlay">
             <i class="ion-ios-close-empty"></i>
         </a>
-
-        <!--=======  search form  =======-->
-
         <div class="search-form">
             <form method="get" asp-page="/Search">
-                <input type="search" name="value" id="value" placeholder="هرچه می‌خواهید در فروشگاه جستجو کنید...">
+                <input type="search" name="value" id="value" placeholder="هرچه می خواهید در فروشگاه جستجو کنید ...">
                 <button type="submit">
                     <i class="ion-android-search"></i>
                 </button>
             </form>
         </div>
-
-        <!--=======  End of search form  =======-->
     </div>
 
 
-    <!-- scroll to top  -->
     <div id="scroll-top">
         <span>برو بالا</span><i class="ion-chevron-right"></i><i class="ion-chevron-right"></i>
     </div>
-    <!-- end of scroll to top -->
-    <!-- Vendor JS -->
-    <script src="~/Theme/assets/js/vendors.js"></script>
 
-    <!-- Active JS -->
+    <script src="~/Theme/assets/js/vendors.js"></script>
     <script src="~/Theme/assets/js/active.js"></script>
 
 </body>

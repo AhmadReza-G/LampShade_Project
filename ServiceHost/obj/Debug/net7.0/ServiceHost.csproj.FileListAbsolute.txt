@@ -118,3 +118,13 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\S
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\ServiceHost.genruntimeconfig.cache
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\ref\ServiceHost.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\obj\Debug\net7.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Application.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Configuration.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Infrastracture.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Configuration.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Application.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Domain.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\CommentManagement.Infrastracture.EFCore.pdb

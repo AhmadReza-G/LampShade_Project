@@ -2,6 +2,6 @@
 public interface IProductQuery
 {
     List<ProductQueryModel> GetLatestArrivals();
-    ProductQueryModel GetDetails(string slug);
+    ProductQueryModel GetProductDetails(string slug);
     List<ProductQueryModel> Search(string value);
 }

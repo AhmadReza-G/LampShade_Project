@@ -1,4 +1,5 @@
-﻿using ShopManagement.Domain.ProductPictureAgg;
+﻿using _01_LampshadeQuery.Contracts.Comment;
+using ShopManagement.Domain.ProductPictureAgg;
 
 namespace _01_LampshadeQuery.Contracts.Product;
 public class ProductQueryModel

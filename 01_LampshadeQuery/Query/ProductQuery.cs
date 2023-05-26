@@ -1,9 +1,11 @@
 ﻿using _0_Framework.Application;
+using _01_LampshadeQuery.Contracts.Comment;
 using _01_LampshadeQuery.Contracts.Product;
+using CommentManagement.Application.Contracts.Comment;
+using CommentManagement.Infrastracture.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastracture.EFCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 
@@ -13,15 +15,17 @@ public class ProductQuery : IProductQuery
     private readonly ShopContext _shopContext;
     private readonly InventoryContext _inventoryContext;
     private readonly DiscountContext _discountContext;
+    private readonly CommentContext _commentContext;
 
-    public ProductQuery(InventoryContext inventoryContext, DiscountContext discountContext, ShopContext shopContext)
+    public ProductQuery(InventoryContext inventoryContext, DiscountContext discountContext, ShopContext shopContext, CommentContext commentContext)
     {
         _inventoryContext = inventoryContext;
         _discountContext = discountContext;
         _shopContext = shopContext;
+        _commentContext = commentContext;
     }
 
-    public ProductQueryModel GetDetails(string slug)
+    public ProductQueryModel GetProductDetails(string slug)
     {
         var inventory = _inventoryContext.Inventory
             .Select(x => new { x.ProductId, x.UnitPrice, x.IsInStock })
@@ -31,9 +35,9 @@ public class ProductQuery : IProductQuery
             .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
             .Select(x => new { x.ProductId, x.DiscountRate, x.EndDate })
             .ToList();
+
         var product = _shopContext.Products
             .Include(x => x.Category)
-            .Include(x => x.Comments)
             .Include(x => x.ProductPictures)
             .Select(x => new ProductQueryModel
             {
@@ -50,8 +54,7 @@ public class ProductQuery : IProductQuery
                 Keywords = x.Keywords,
                 ShortDescription = x.ShortDescription,
                 CategorySlug = x.Category.Slug,
-                Pictures = MapProductPictures(x.ProductPictures),
-                Comments = MapComments(x.Comments)
+                Pictures = MapProductPictures(x.ProductPictures)
             }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
         if (product is null)
             return new ProductQueryModel();
@@ -72,21 +75,27 @@ public class ProductQuery : IProductQuery
                 product.PriceWithDiscount = (price - discountAmount).ToMoney();
             }
         }
-        return product;
-    }
 
-    private static List<CommentQueryModel> MapComments(List<Comment> comments)
-    {
-        return comments.Where(x => !x.IsCanceled)
+        var comments = _commentContext.Comments
+            .Where(x => !x.IsCanceled)
             .Where(x => x.IsConfirmed)
+            .Where(x => x.Type == ((int)CommentType.Product))
+            .Where(x => x.OwnerRecordId == product.Id)
             .Select(x => new CommentQueryModel
             {
                 Id = x.Id,
+                Name = x.Name,
                 Message = x.Message,
-                Name = x.Name
-            }).OrderByDescending(x => x.Id)
+                CreationDate = x.CreationDate.ToFarsi()
+            })
+            .OrderByDescending(x => x.Id)
             .ToList();
+
+        product.Comments = comments;
+
+        return product;
     }
+
 
     private static List<ProductPicturesQueryModel> MapProductPictures(List<ProductPicture> productPictures)
     {
@@ -123,7 +132,11 @@ public class ProductQuery : IProductQuery
                 Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 Slug = x.Slug,
-            }).AsNoTracking().OrderByDescending(x => x.Id).Take(6).ToList();
+            })
+            .AsNoTracking()
+            .OrderByDescending(x => x.Id)
+            .Take(6)
+            .ToList();
         foreach (var product in products)
         {
             var productInventory = inventory.FirstOrDefault(x => x.ProductId == product.Id);
@@ -195,7 +208,8 @@ public class ProductQuery : IProductQuery
                 }
             }
         }
-
         return products;
     }
+
+
 }

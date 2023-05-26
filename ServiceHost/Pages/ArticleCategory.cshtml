@@ -1,7 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ArticleCategoryModel
 @{
-    ViewData["Title"] = "مقالات";
+    ViewData["Title"] = Model.ArticleCategory.Name;
+    ViewData["keywords"] = Model.ArticleCategory.Keywords;
+    ViewData["metaDescription"] = Model.ArticleCategory.MetaDescription;
 }
 
 
@@ -46,11 +48,11 @@
                                                         </a>
                                                     </div>
                                                     <div class="single-blog-post__content">
-                                                        <h3 class="title">
+                                                        <h2 class="title">
                                                             <a asp-page="./Article" asp-route-id="@article.Slug">
                                                                 @article.Title
                                                             </a>
-                                                        </h3>
+                                                        </h2>
                                                         <p class="post-meta">
                                                             <span class="date">@article.PublishDate</span>
                                                         </p>
@@ -107,7 +109,7 @@
                                     </div>
                                     <div class="single-sidebar-widget">
 
-                                        <h4 class="single-sidebar-widget__title">آخرین مقالات</h4>
+                                        <h2 class="single-sidebar-widget__title">آخرین مقالات</h2>
                                         <div class="block-container">
                                             @foreach (var article in Model.LatestArticles)
                                             {
@@ -132,7 +134,7 @@
                                     </div>
 
                                     <div class="single-sidebar-widget">
-                                        <h4 class="single-sidebar-widget__title">تگ ها</h4>
+                                        <h2 class="single-sidebar-widget__title">تگ ها</h2>
                                         <ul class="single-sidebar-widget__tag-list">
                                             @foreach (var tag in Model.ArticleCategory.KeywordList)
                                             {

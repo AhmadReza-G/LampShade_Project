@@ -1,5 +1,4 @@
-﻿namespace ShopManagement.Application.Contracts.Comment;
-
+﻿namespace CommentManagement.Application.Contracts.Comment;
 public class CommentSearchModel
 {
     public string Name { get; set; }
