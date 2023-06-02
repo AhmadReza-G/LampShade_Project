@@ -47,6 +47,18 @@
                                 <li>
                                     <a href="contact.html">تماس با ما</a>
                                 </li>
+                                @if (AuthHelper.IsAuthenticated())
+                                {
+                                    <li class="">
+                                        <a asp-page="/Account" asp-page-handler="Logout">خروج</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li class="">
+                                        <a asp-page="/Account">ورود / ثبت نام</a>
+                                    </li>
+                                }
                             </ul>
                         </nav>
                     </div>
@@ -290,7 +302,6 @@
                     </li>
                     @if (AuthHelper.IsAuthenticated())
                     {
-
                         <li class="">
                             <a asp-page="/Account" asp-page-handler="Logout">خروج</a>
                         </li>
@@ -298,7 +309,7 @@
                     else
                     {
                         <li class="">
-                            <a asp-page="/Account">ورود و ثبتنام</a>
+                            <a asp-page="/Account">ورود / ثبت نام</a>
                         </li>
                     }
                 </ul>

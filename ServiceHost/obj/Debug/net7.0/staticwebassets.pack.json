@@ -1257,6 +1257,22 @@
       "PackagePath": "staticwebassets\\ProductPictures\\Slides\\2023-05-11-11-11-14-product01.jpg"
     },
     {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\profilePhotos\\2023-06-01-18-52-52-photo_2021-12-19_02-52-26.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\profilePhotos\\2023-06-01-18-52-52-photo_2021-12-19_02-52-26.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\profilePhotos\\2023-06-02-01-14-34-b4107a0606d796c9a411ced63501e998.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\profilePhotos\\2023-06-02-01-14-34-b4107a0606d796c9a411ced63501e998.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\profilePhotos\\2023-06-02-01-16-36-b4107a0606d796c9a411ced63501e998.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\profilePhotos\\2023-06-02-01-16-36-b4107a0606d796c9a411ced63501e998.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\profilePhotos\\2023-06-02-01-18-27-b4107a0606d796c9a411ced63501e998.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\profilePhotos\\2023-06-02-01-18-27-b4107a0606d796c9a411ced63501e998.jpg"
+    },
+    {
       "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\img4-top-eposi1.jpg",
       "PackagePath": "staticwebassets\\ProductPictures\\اتاق-خواب\\img4-top-eposi1.jpg"
     },

@@ -20,6 +20,8 @@ public class AccountManagementBootstrapper
         services.AddTransient<IRoleRepository, RoleRepository>();
         services.AddTransient<IRoleApplication, RoleApplication>();
 
+
+
         services.AddDbContext<AccountContext>(x => x.UseSqlServer(connectionString));
     }
 }

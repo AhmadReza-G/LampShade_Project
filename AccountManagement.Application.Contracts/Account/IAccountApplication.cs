@@ -3,7 +3,7 @@
 namespace AccountManagement.Application.Contracts.Account;
 public interface IAccountApplication
 {
-    OperationResult Create(CreateAccount command);
+    OperationResult Register(RegisterAccount command);
     OperationResult Edit(EditAccount command);
     OperationResult ChangePassword(ChangePassword command);
     EditAccount GetDetails(long id);

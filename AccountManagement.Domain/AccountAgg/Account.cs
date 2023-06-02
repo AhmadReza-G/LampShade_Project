@@ -17,6 +17,8 @@ public class Account : EntityBase
         Username = username;
         Password = password;
         RoleId = roleId;
+        if (RoleId == 0)
+            RoleId = 2;
         Mobile = mobile;
         ProfilePhoto = profilePhoto;
     }

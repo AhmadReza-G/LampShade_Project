@@ -1,4 +1,5 @@
 using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using AccountManagement.Configuration;
 using BlogManagement.Configuration;
 using CommentManagement.Configuration;
@@ -25,8 +26,8 @@ AccountManagementBootstrapper.Configure(builder.Services, connectionString);
 
 builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
-
 builder.Services.AddTransient<IFileUploader, FileUploader>();
+builder.Services.AddTransient<IAuthHelper, AuthHelper>();
 
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
@@ -42,7 +43,38 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         o.AccessDeniedPath = new PathString("/AccessDenied");
     });
 
-builder.Services.AddRazorPages();
+builder.Services
+    .AddAuthorization(options =>
+    {
+        options.AddPolicy("AdminArea", builder =>
+        builder.RequireRole(new[] { Roles.Administrator, Roles.ContentUploader }));
+
+        options.AddPolicy("Shop", builder =>
+        builder.RequireRole(new[] { Roles.Administrator }));
+
+        options.AddPolicy("Discount", builder =>
+        builder.RequireRole(new[] { Roles.Administrator }));
+
+        options.AddPolicy("Account", builder =>
+        builder.RequireRole(new[] { Roles.Administrator }));
+    });
+
+builder.Services
+    .AddRazorPages()
+    .AddRazorPagesOptions(options =>
+    {
+        options.Conventions
+        .AuthorizeAreaFolder("Administration", "/", "AdminArea");
+
+        options.Conventions
+        .AuthorizeAreaFolder("Administration", "/Shop", "Shop");
+
+        options.Conventions
+        .AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
+
+        options.Conventions
+        .AuthorizeAreaFolder("Administration", "/Accounts", "Account");
+    });
 
 var app = builder.Build();
 

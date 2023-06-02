@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
 using Framework.Application;
@@ -37,7 +38,7 @@ public class AccountApplication : IAccountApplication
         return operation.Succeded();
     }
 
-    public OperationResult Create(CreateAccount command)
+    public OperationResult Register(RegisterAccount command)
     {
         var operation = new OperationResult();
 
@@ -69,7 +70,6 @@ public class AccountApplication : IAccountApplication
 
         var picturePath = $"profilePhotos";
         var fileName = _fileUploader.Upload(command.ProfilePhoto, picturePath);
-        var password = _passwordHasher.Hash(command.Password);
         account.Edit(command.Fullname, command.Username, command.RoleId, command.Mobile, fileName);
 
         _accountRepository.SaveChanges();
@@ -91,7 +91,8 @@ public class AccountApplication : IAccountApplication
         (bool Verified, bool NeedsUpgrade) result = _passwordHasher.Check(account.Password, command.Password);
         if (!result.Verified)
             return operation.Failed(ApplicationMessages.WrongUserPass);
-        var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.Username);
+        var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname,
+            account.Username, Roles.GetRoleBy(account.RoleId), account.ProfilePhoto);
         _authHelper.Signin(authViewModel);
 
         return operation.Succeded();
