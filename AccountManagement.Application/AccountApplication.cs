@@ -2,6 +2,7 @@
 using _0_Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
+using AccountManagement.Domain.RoleAgg;
 using Framework.Application;
 
 namespace AccountManagement.Application;
@@ -11,13 +12,15 @@ public class AccountApplication : IAccountApplication
     private readonly IFileUploader _fileUploader;
     private readonly IPasswordHasher _passwordHasher;
     private readonly IAuthHelper _authHelper;
-    public AccountApplication(IAccountRepository accountRepository,
-        IFileUploader fileUploader, IPasswordHasher passwordHasher, IAuthHelper authHelper)
+    private readonly IRoleRepository _roleRepository;
+    public AccountApplication(IAccountRepository accountRepository, IFileUploader fileUploader,
+        IPasswordHasher passwordHasher, IAuthHelper authHelper, IRoleRepository roleRepository)
     {
         _accountRepository = accountRepository;
         _fileUploader = fileUploader;
         _passwordHasher = passwordHasher;
         _authHelper = authHelper;
+        _roleRepository = roleRepository;
     }
 
     public OperationResult ChangePassword(ChangePassword command)
@@ -91,8 +94,14 @@ public class AccountApplication : IAccountApplication
         (bool Verified, bool NeedsUpgrade) result = _passwordHasher.Check(account.Password, command.Password);
         if (!result.Verified)
             return operation.Failed(ApplicationMessages.WrongUserPass);
+
+        var permissions = _roleRepository.GetBy(account.RoleId)
+            .Permissions
+            .Select(x => x.Code)
+            .ToList();
+
         var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname,
-            account.Username, Roles.GetRoleBy(account.RoleId), account.ProfilePhoto);
+            account.Username, Roles.GetRoleBy(account.RoleId), account.ProfilePhoto, permissions);
         _authHelper.Signin(authViewModel);
 
         return operation.Succeded();

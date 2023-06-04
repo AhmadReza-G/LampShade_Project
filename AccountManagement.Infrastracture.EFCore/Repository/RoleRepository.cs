@@ -3,6 +3,7 @@ using _0_Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Role;
 using AccountManagement.Domain.RoleAgg;
 using AccountManagement.Infrastracture.EFCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace AccountManagement.Infrastructure.EFCore.Repository;
 public class RoleRepository : RepositoryBase<long, Role>, IRoleRepository
@@ -14,13 +15,25 @@ public class RoleRepository : RepositoryBase<long, Role>, IRoleRepository
         _context = context;
     }
 
-    public EditRole GetDetails(long id)
+    public EditRole? GetDetails(long id)
     {
-        return _context.Roles.Select(x => new EditRole
+        var role = _context.Roles.Select(x => new EditRole
         {
-            Id = id,
-            Name = x.Name
-        }).FirstOrDefault(x => x.Id == id);
+            Id = x.Id,
+            Name = x.Name,
+            MappedPermissions = MapPermissions(x.Permissions)
+        }).AsNoTracking()
+        .FirstOrDefault(x => x.Id == id);
+
+        role!.Permissions = role.MappedPermissions.Select(x => x.Code).ToList();
+
+        return role;
+    }
+
+    private static List<PermissionDto> MapPermissions(IEnumerable<Permission> permissions)
+    {
+        return permissions.Select(x => new PermissionDto(x.Code, x.Name))
+            .ToList();
     }
 
     public List<RoleViewModel> List()

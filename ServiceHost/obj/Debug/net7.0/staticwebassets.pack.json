@@ -749,6 +749,18 @@
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-multi-select\\multi-select.css"
     },
     {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-multi-select\\multi-select.dev.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-multi-select\\multi-select.dev.css"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-multi-select\\multi-select.dev.css.map",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-multi-select\\multi-select.dev.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-multi-select\\multi-select.dist.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-multi-select\\multi-select.dist.css"
+    },
+    {
       "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\AdminTheme\\assets\\jquery-slimscroll\\jquery.slimscroll.js",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-slimscroll\\jquery.slimscroll.js"
     },

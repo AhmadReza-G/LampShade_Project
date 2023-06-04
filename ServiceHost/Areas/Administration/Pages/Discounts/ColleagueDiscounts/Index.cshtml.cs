@@ -1,5 +1,8 @@
+using _0_Framework.Infrastructure;
 using DiscountManagement.Application.Contracts.ColleagueDiscount;
 using DiscountManagement.Application.Contracts.CustomerDiscount;
+using DiscountManagement.Configuration.Permissions;
+using InventoryManagement.Configuration.Permissions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -24,7 +27,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
             _productApplication = ProductApplication;
             _colleagueDiscountApplication = colleagueDiscountApplication;
         }
-
+        [NeedsPermission(DiscountPermissions.SearchColleagueDiscounts)]
         public void OnGet(ColleagueDiscountSearchModel searchModel)
         {
             Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
@@ -39,7 +42,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
             };
             return Partial("./Create", command);
         }
-
+        [NeedsPermission(DiscountPermissions.DefineColleagueDiscount)]
         public JsonResult OnPostCreate(DefineColleagueDiscount command)
         {
             var result = _colleagueDiscountApplication.Define(command);
@@ -52,19 +55,19 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
             colleagueDiscount.Products = _productApplication.GetProducts();
             return Partial("Edit", colleagueDiscount);
         }
-
+        [NeedsPermission(DiscountPermissions.EditColleagueDiscount)]
         public JsonResult OnPostEdit(EditColleagueDiscount command)
         {
             var result = _colleagueDiscountApplication.Edit(command);
             return new JsonResult(result);
         }
-
+        [NeedsPermission(DiscountPermissions.RemoveColleagueDiscount)]
         public IActionResult OnGetRemove(long id)
         {
             _colleagueDiscountApplication.Remove(id);
             return RedirectToPage("./Index");
         }
-
+        [NeedsPermission(DiscountPermissions.RestoreColleagueDiscount)]
         public IActionResult OnGetRestore(long id)
         {
             _colleagueDiscountApplication.Restore(id);

@@ -1,5 +1,7 @@
+using _0_Framework.Infrastructure;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Application.Contracts.ArticleCategory;
+using BlogManagement.Configuration.Permissions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -19,7 +21,7 @@ public class CreateModel : PageModel
         _articleApplication = articleApplication;
         _articleCategoryApplication = articleCategoryApplication;
     }
-
+    [NeedsPermission(BlogPermissions.CreateArticle)]
     public void OnGet()
     {
         ArticleCategories = new SelectList(_articleCategoryApplication.GetArticleCategories(), "Id", "Name");
@@ -29,6 +31,7 @@ public class CreateModel : PageModel
     //    ArticleCategories = new SelectList(_articleCategoryApplication.GetArticleCategories(), "Id", "Name");
     //    Command = command;
     //}
+    [NeedsPermission(BlogPermissions.CreateArticle)]
     public IActionResult OnPost(CreateArticle command)
     {
         //if(!ModelState.IsValid)

@@ -28,6 +28,7 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\M
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\System.CodeDom.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\ServiceHost\bin\Debug\net7.0\System.Drawing.Common.dll

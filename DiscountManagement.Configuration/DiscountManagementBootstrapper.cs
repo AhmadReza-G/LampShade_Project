@@ -1,6 +1,8 @@
-﻿using DiscountManagement.Application;
+﻿using _0_Framework.Infrastructure;
+using DiscountManagement.Application;
 using DiscountManagement.Application.Contracts.ColleagueDiscount;
 using DiscountManagement.Application.Contracts.CustomerDiscount;
+using DiscountManagement.Configuration.Permissions;
 using DiscountManagement.Domain.ColleagueDiscountAgg;
 using DiscountManagement.Domain.CustomerDiscountAgg;
 using DiscountManagement.Infrastructure.EFCore;
@@ -18,6 +20,8 @@ public class DiscountManagementBootstrapper
 
         services.AddTransient<IColleagueDiscountApplication, ColleagueDiscountApplication>();
         services.AddTransient<IColleagueDiscountRepository, ColleagueDiscountRepository>();
+
+        services.AddTransient<IPermissionExposer, DiscountPermissionExposer>();
 
         services.AddDbContext<DiscountContext>(x => x.UseSqlServer(connectionString));
     }

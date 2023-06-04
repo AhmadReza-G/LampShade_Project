@@ -49,6 +49,7 @@ $(document).ready(function () {
             const method = form.attr("method").toLocaleLowerCase();
             const url = form.attr("action");
             var action = form.attr("data-action");
+
             if (method === "get") {
                 const data = form.serializeArray();
                 $.get(url,
@@ -84,11 +85,10 @@ function CallBackHandler(data, action, form) {
             alert(data.Message);
             break;
         case "Refresh":
-            if (data.IsSucceded) {
+            if (data.isSuccedded) {
                 window.location.reload();
             } else {
                 alert(data.message);
-                window.location.reload();
             }
             break;
         case "RefereshList":
@@ -121,7 +121,6 @@ function get(url, refereshDiv) {
 function makeSlug(source, dist) {
     const value = $('#' + source).val();
     $('#' + dist).val(convertToSlug(value));
-    //checkSlugDuplication(url, dist);
 }
 
 var convertToSlug = function (str) {
@@ -184,6 +183,7 @@ function handleAjaxCall(method, url, data) {
             });
     }
 }
+
 jQuery.validator.addMethod("maxFileSize",
     function (value, element, params) {
         var size = element.files[0].size;
@@ -196,16 +196,15 @@ jQuery.validator.addMethod("maxFileSize",
     });
 jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
 
-jQuery.validator.addMethod("fileExtentionLimit",
-    function (value, element, params) {
-        var fileExtension = ['jpeg', 'jpg', 'png'];
-        var val = $(element).val();
-        var ext = val.substring(val.lastIndexOf('.') + 1).toLowerCase();
-        if ($.inArray(ext, fileExtension) == -1) {
-            return false;
-        }
-        else {
-            return true;
-        }
-    });
-jQuery.validator.unobtrusive.adapters.addBool("fileExtentionLimit");
+//jQuery.validator.addMethod("maxFileSize",
+//    function (value, element, params) {
+//        var size = element.files[0].size;
+//        var maxSize = 3 * 1024 * 1024;
+//        debugger;
+//        if (size > maxSize)
+//            return false;
+//        else {
+//            return true;
+//        }
+//    });
+//jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");

@@ -1,7 +1,7 @@
-﻿using CommentManagement.Application;
-using CommentManagement.Application.Contracts.Comment;
+﻿using _0_Framework.Infrastructure;
+using CommentManagement.Application;
+using CommentManagement.Configuration.Permissions;
 using CommentManagement.Domain.CommentAgg;
-using CommentManagement.Infrastracture.EFCore;
 using CommentManagement.Infrastracture.EFCore.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,6 +14,8 @@ public class CommentManagementBootstrapper
         services.AddTransient<ICommentRepository, CommentRepository>();
         services.AddTransient<Application.Contracts.Comment.ICommentApplication, CommentApplication>();
 
-        services.AddDbContext<Infrastracture.EFCore.CommentContext>(x=> x.UseSqlServer(connectionString));
+        services.AddTransient<IPermissionExposer, CommentPermissionExposer>();
+
+        services.AddDbContext<Infrastracture.EFCore.CommentContext>(x => x.UseSqlServer(connectionString));
     }
 }

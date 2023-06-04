@@ -1,9 +1,6 @@
 ﻿@page
 @model ServiceHost.Areas.Administration.Pages.Accounts.Role.IndexModel
 @{
-}
-
-@{
     Layout = "Shared/_AdminLayout";
     ViewData["title"] = "مدیریت نقش ها";
 }
@@ -12,7 +9,7 @@
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد نقش جدید</a>
+            <a class="btn btn-success btn-lg" asp-page="Create">ایجاد نقش جدید</a>
         </p>
     </div>
 </div>
@@ -43,8 +40,7 @@
                                         <td>@item.Name</td>
                                         <td>@item.CreationDate</td>
                                         <td>
-                                            <a class="btn btn-warning waves-effect waves-light m-b-5"
-                                               href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
+                                            <a class="btn btn-warning waves-effect waves-light m-b-5" asp-page="Edit" asp-route-id="@item.Id">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
                                         </td>

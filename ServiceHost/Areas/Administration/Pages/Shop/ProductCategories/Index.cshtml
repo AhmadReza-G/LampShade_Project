@@ -1,4 +1,5 @@
 ﻿@page
+@using ShopManagement.Configuration.Permissions;
 @model ServiceHost.Areas.Administration.Pages.Shop.ProductCategories.IndexModel
 @{
 }
@@ -12,7 +13,7 @@
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد گروه محصول جدید</a>
+            <a Permission="ShopPermissions.CreateProductCategory" class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد گروه محصول جدید</a>
         </p>
     </div>
 </div>
@@ -67,7 +68,7 @@
                                         <td>@item.Name</td>
                                         <td>@item.CreationDate</td>
                                         <td>
-                                            <a class="btn btn-warning pull-right m-rl-5"
+                                            <a Permission="ShopPermissions.EditProductCategory" class="btn btn-warning pull-right m-rl-5"
                                                href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>

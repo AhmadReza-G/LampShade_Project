@@ -1,8 +1,10 @@
+using _0_Framework.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductPicture;
+using ShopManagement.Configuration.Permissions;
 using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures;
@@ -22,7 +24,7 @@ public class IndexModel : PageModel
         _productApplication = ProductApplication;
         _productPictureApplication = productPictureApplication;
     }
-
+    [NeedsPermission(ShopPermissions.SearchProductPictures)]
     public void OnGet(ProductPictureSearchModel searchModel)
     {
         Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
@@ -37,7 +39,7 @@ public class IndexModel : PageModel
         };
         return Partial("./Create", command);
     }
-
+    [NeedsPermission(ShopPermissions.CreateProductPicture)]
     public JsonResult OnPostCreate(CreateProductPicture command)
     {
         var result = _productPictureApplication.Create(command);
@@ -50,13 +52,13 @@ public class IndexModel : PageModel
         productPicture.Products = _productApplication.GetProducts();
         return Partial("Edit", productPicture);
     }
-
+    [NeedsPermission(ShopPermissions.EditProductPicture)]
     public JsonResult OnPostEdit(EditProductPicture command)
     {
         var result = _productPictureApplication.Edit(command);
         return new JsonResult(result);
     }
-
+    [NeedsPermission(ShopPermissions.RemoveProductPicture)]
     public IActionResult OnGetRemove(long id)
     {
         var result = _productPictureApplication.Remove(id);
@@ -66,7 +68,7 @@ public class IndexModel : PageModel
         Message = result.Message;
         return RedirectToPage("./Index");
     }
-
+    [NeedsPermission(ShopPermissions.RestoreProductPicture)]
     public IActionResult OnGetRestore(long id)
     {
         var result = _productPictureApplication.Restore(id);

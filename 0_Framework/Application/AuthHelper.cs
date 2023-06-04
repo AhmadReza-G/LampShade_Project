@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 
 namespace _0_Framework.Application
 {
@@ -29,7 +30,6 @@ namespace _0_Framework.Application
             result.Fullname = claims.FirstOrDefault(x => x.Type == ClaimTypes.Name)!.Value;
             result.Role = claims.FirstOrDefault(x => x.Type == "RoleName")!.Value;
             result.ProfilePhoto = claims.FirstOrDefault(x => x.Type == "ProfilePhoto")!.Value;
-
             return result;
         }
 
@@ -44,17 +44,32 @@ namespace _0_Framework.Application
             return null;
         }
 
+        public List<int> GetPermissions()
+        {
+            if (!IsAuthenticated())
+                return new();
+            var permissions = _contextAccessor.HttpContext
+                .User
+                .Claims
+                .FirstOrDefault(x => x.Type == "Permissions")
+                ?.Value;
+
+            return JsonConvert.DeserializeObject<List<int>>(permissions!)!;
+        }
+
         public bool IsAuthenticated()
         {
-            var claims = _contextAccessor.HttpContext.User.Claims.ToList();
-            //if (claims.Count > 0)
-            //    return true;
-            //return false;
-            return claims.Count > 0;
+            return _contextAccessor.HttpContext.User.Identity!.IsAuthenticated;
+            //var claims = _contextAccessor.HttpContext.User.Claims.ToList();
+            ////if (claims.Count > 0)
+            ////    return true;
+            ////return false;
+            //return claims.Count > 0;
         }
 
         public void Signin(AuthViewModel account)
         {
+            var permissions = JsonConvert.SerializeObject(account.Permissions);
             var claims = new List<Claim>
             {
                 new Claim("AccountId", account.Id.ToString()),
@@ -62,7 +77,8 @@ namespace _0_Framework.Application
                 new Claim("RoleName", account.Role),
                 new Claim("Username", account.Username),
                 new Claim(ClaimTypes.Role, account.RoleId.ToString()),
-                new Claim("ProfilePhoto", account.ProfilePhoto ?? "")
+                new Claim("ProfilePhoto", account.ProfilePhoto ?? ""),
+                new Claim("Permissions", permissions)
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

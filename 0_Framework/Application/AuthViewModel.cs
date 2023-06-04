@@ -8,12 +8,14 @@
         public string Fullname { get; set; }
         public string Username { get; set; }
         public string? ProfilePhoto { get; set; }
+        public List<int> Permissions { get; set; }
 
         public AuthViewModel()
         {
 
         }
-        public AuthViewModel(long id, long roleId, string fullname, string username, string role, string? profilePhoto)
+        public AuthViewModel(long id, long roleId, string fullname,
+            string username, string role, string? profilePhoto, List<int> permissions)
         {
             Id = id;
             RoleId = roleId;
@@ -21,6 +23,7 @@
             Username = username;
             Role = role;
             ProfilePhoto = profilePhoto;
+            Permissions = permissions;
         }
     }
 }

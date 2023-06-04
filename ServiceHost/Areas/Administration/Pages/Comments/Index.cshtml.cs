@@ -1,4 +1,6 @@
+using _0_Framework.Infrastructure;
 using CommentManagement.Application.Contracts.Comment;
+using CommentManagement.Configuration.Permissions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -16,12 +18,12 @@ namespace ServiceHost.Areas.Administration.Pages.Comments
         {
             _commentApplication = commentApplication;
         }
-
+        [NeedsPermission(CommentPermissions.SearchComments)]
         public void OnGet(CommentSearchModel searchModel)
         {
             Comments = _commentApplication.Search(searchModel);
         }
-
+        [NeedsPermission(CommentPermissions.CancelComment)]
         public IActionResult OnGetCancel(long id)
         {
             var result = _commentApplication.Cancel(id);
@@ -31,7 +33,7 @@ namespace ServiceHost.Areas.Administration.Pages.Comments
             Message = result.Message;
             return RedirectToPage("./Index");
         }
-
+        [NeedsPermission(CommentPermissions.ConfirmComment)]
         public IActionResult OnGetConfirm(long id)
         {
             var result = _commentApplication.Confirm(id);
