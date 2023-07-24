@@ -7,7 +7,6 @@ public class CommentPermissionExposer : IPermissionExposer
     {
         ["کامنت"] = new List<PermissionDto>
         {
-            new(CommentPermissions.AddComment, "افزودن کامنت"),
             new(CommentPermissions.ConfirmComment, "پذیرفتن کامنت"),
             new(CommentPermissions.CancelComment, "رد کامنت"),
             new(CommentPermissions.SearchComments, "جستجوی کامنت‌ها")

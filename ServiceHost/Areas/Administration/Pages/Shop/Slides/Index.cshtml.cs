@@ -1,4 +1,5 @@
 using _0_Framework.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.Slide;
@@ -6,6 +7,7 @@ using ShopManagement.Configuration.Permissions;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.Slides;
 
+[Authorize(Roles = Roles.Administrator)]
 public class IndexModel : PageModel
 {
     [TempData]

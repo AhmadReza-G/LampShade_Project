@@ -1,14 +1,15 @@
 using _0_Framework.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Configuration.Permissions;
-using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures;
 
+[Authorize(Roles = Roles.Administrator)]
 public class IndexModel : PageModel
 {
     [TempData]

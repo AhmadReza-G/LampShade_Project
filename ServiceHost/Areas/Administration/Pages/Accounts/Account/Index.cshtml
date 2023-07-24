@@ -1,8 +1,6 @@
 ﻿@page
+@using AccountManagement.Configuration.Permissions
 @model ServiceHost.Areas.Administration.Pages.Accounts.Account.IndexModel
-@{
-}
-
 @{
     Layout = "Shared/_AdminLayout";
     ViewData["title"] = "مدیریت کاربران";
@@ -12,12 +10,12 @@
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Register")">ایجاد کاربر جدید</a>
+            <a permission="@AccountPermissions.RegisterAccount" class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Register")">ایجاد کاربر جدید</a>
         </p>
     </div>
 </div>
 
-<div class="row">
+<div class="row" permission="@AccountPermissions.SearchAccounts">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -87,14 +85,14 @@
                                         <td>@item.Role</td>
                                         <td>@item.CreationDate</td>
                                         <td>
-                                            <a class="btn btn-warning waves-effect waves-light m-b-5"
+                                            <a permission="@AccountPermissions.EditAccount" class="btn btn-warning waves-effect waves-light m-b-5"
                                                href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
-                                            <a class="btn btn-primary waves-effect waves-light m-b-5"
-                                               href="#showmodal=@Url.Page("./Index", "ChangePassword", new { id = item.Id})">
+                                            <apermission ="@AccountPermissions.ChangePassword" class="btn btn-primary waves-effect waves-light m-b-5"
+                                                         href="#showmodal=@Url.Page("./Index", "ChangePassword", new { id = item.Id})">
                                                 <i class="fa fa-key"></i> تغییر رمز
-                                            </a>
+                                            </apermission>
                                         </td>
                                     </tr>
                                 }

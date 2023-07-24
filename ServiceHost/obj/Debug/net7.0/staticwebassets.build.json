@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S432BCBJDc1tofafpBdP+oUyZuy37UmKr8YXslIUj7o=",
+  "Hash": "9iEzO9SGHf+r6sjNcplL9Jfpv/gsV8SPn1D1eBLJGLc=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -8124,6 +8124,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\ajax-mail.js"
+    },
+    {
+      "Identity": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\js\\plugins.js",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/js/plugins.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\plugins.js"
     },
     {
       "Identity": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\js\\vendors.js",

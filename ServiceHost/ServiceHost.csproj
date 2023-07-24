@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Content Remove="Pages\Article.cshtml" />
+    <Content Remove="wwwroot\Theme\assets\js\custom.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,6 +17,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Nancy" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +47,7 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Pages\Article.cshtml" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\assets\js\custom.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -56,6 +59,7 @@
     <None Include="Areas\Administration\Pages\Accounts\Role\Edit.cshtml" />
     <None Include="Areas\Administration\Pages\Accounts\Role\Index.cshtml" />
     <None Include="Pages\Article.cshtml" />
+    <None Include="wwwroot\Theme\assets\js\custom.js" />
   </ItemGroup>
 
 </Project>

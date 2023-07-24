@@ -1,4 +1,5 @@
 ﻿@page
+@using CommentManagement.Configuration.Permissions
 @model ServiceHost.Areas.Administration.Pages.Comments.IndexModel
 @{
 }
@@ -14,7 +15,7 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row" permission="@CommentPermissions.SearchComments">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -83,12 +84,12 @@
                                             }
                                         </td>
                                         <td>
-                                            <a asp-page="./Index" asp-page-handler="Cancel" asp-route-id="@item.Id"
+                                            <a permission="@CommentPermissions.CancelComment" asp-page="./Index" asp-page-handler="Cancel" asp-route-id="@item.Id"
                                                class="btn btn-danger waves-effect waves-light m-b-5">کنسل</a>
 
                                             @if (!item.IsConfirmed)
                                             {
-                                                <a asp-page="./Index" asp-page-handler="Confirm" asp-route-id="@item.Id"
+                                                <a permission="@CommentPermissions.ConfirmComment" asp-page="./Index" asp-page-handler="Confirm" asp-route-id="@item.Id"
                                                    class="btn btn-success waves-effect waves-light m-b-5">تایید</a>
                                             }
 

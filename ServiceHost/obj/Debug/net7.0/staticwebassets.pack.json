@@ -1769,6 +1769,10 @@
       "PackagePath": "staticwebassets\\Theme\\assets\\js\\ajax-mail.js"
     },
     {
+      "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\plugins.js"
+    },
+    {
       "Id": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ServiceHost\\wwwroot\\Theme\\assets\\js\\vendors.js",
       "PackagePath": "staticwebassets\\Theme\\assets\\js\\vendors.js"
     },

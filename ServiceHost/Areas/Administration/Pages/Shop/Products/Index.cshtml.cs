@@ -1,4 +1,5 @@
 using _0_Framework.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -8,6 +9,7 @@ using ShopManagement.Configuration.Permissions;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.Products;
 
+[Authorize(Roles = Roles.Administrator)]
 public class IndexModel : PageModel
 {
     [TempData]

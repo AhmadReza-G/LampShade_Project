@@ -33,7 +33,6 @@ public class ShopPermissionExposer : IPermissionExposer
             new(ShopPermissions.CreateSlide, "ایجاد اسلایدر"),
             new(ShopPermissions.EditSlide, "ویرایش اسلایدر"),
             new(ShopPermissions.ListSlides, "لیست اسلایدرها"),
-            new(ShopPermissions.SearchSlides, "جستجوی اسلایدرها"),
             new(ShopPermissions.RemoveSlide, "حذف اسلایدر"),
             new(ShopPermissions.RestoreSlide, "بازیابی اسلایدر")
         }

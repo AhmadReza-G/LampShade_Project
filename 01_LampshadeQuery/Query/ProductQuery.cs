@@ -6,6 +6,7 @@ using CommentManagement.Infrastracture.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastracture.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 
@@ -63,6 +64,7 @@ public class ProductQuery : IProductQuery
         {
             var price = productInventory.UnitPrice;
             product.Price = price.ToMoney();
+            product.DoublePrice = price;
             product.IsInStock = productInventory.IsInStock;
             var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
             if (discount is not null)
@@ -197,19 +199,31 @@ public class ProductQuery : IProductQuery
                 product.Price = price.ToMoney();
                 product.IsInStock = productInventory.IsInStock;
                 var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
-                if (discount is not null)
-                {
-                    var discountRate = discount.DiscountRate;
-                    product.DiscountRate = discountRate;
-                    product.DiscountExpireDate = discount.EndDate.ToDiscountFormat();
-                    product.HasDiscount = discountRate > 0;
-                    var discountAmount = Math.Round((price * discountRate) / 100);
-                    product.PriceWithDiscount = (price - discountAmount).ToMoney();
-                }
+                if (discount is null)
+                    continue;
+                var discountRate = discount.DiscountRate;
+                product.DiscountRate = discountRate;
+                product.DiscountExpireDate = discount.EndDate.ToDiscountFormat();
+                product.HasDiscount = discountRate > 0;
+                var discountAmount = Math.Round((price * discountRate) / 100);
+                product.PriceWithDiscount = (price - discountAmount).ToMoney();
             }
         }
         return products;
     }
 
+    public List<CartItem> CheckInventoryStatus(List<CartItem> cartItems)
+    {
+        var inventory = _inventoryContext.Inventory
+            .ToList();
+        foreach (var cartItem in cartItems.Where(cartItem =>
+                inventory.Any(x => x.ProductId == cartItem.Id && x.IsInStock)))
+        {
+            var itemInventory = inventory.Find(x => x.ProductId == cartItem.Id);
+            if (itemInventory is not null)
+                cartItem.IsInStock = itemInventory.CalculateInventoryCount() >= cartItem.Count;
+        }
 
+        return cartItems;
+    }
 }

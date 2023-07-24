@@ -6,7 +6,8 @@ public static class DiscountPermissions
     public const int EditColleagueDiscount = 151;
     public const int SearchColleagueDiscounts = 152;
     public const int RemoveColleagueDiscount = 153;
-    public const int RestoreColleagueDiscount = 154;
+    public const int ActivateColleagueDiscount = 154;
+    public const int DeactivateColleagueDiscount = 155;
 
     // CustomerDiscount Permissions
     public const int DefineCustomerDiscount = 160;

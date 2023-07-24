@@ -11,7 +11,8 @@ public class DiscountPermissionExposer : IPermissionExposer
             new(DiscountPermissions.EditColleagueDiscount, "ویرایش تخفیف همکار"),
             new(DiscountPermissions.SearchColleagueDiscounts, "جستجوی تخفیف‌های همکار"),
             new(DiscountPermissions.RemoveColleagueDiscount, "حذف تخفیف همکار"),
-            new(DiscountPermissions.RestoreColleagueDiscount, "بازیابی تخفیف همکار")
+            new(DiscountPermissions.ActivateColleagueDiscount, "فعال‌سازی تخفیف همکار"),
+            new(DiscountPermissions.DeactivateColleagueDiscount, "غیرفعال‌سازی تخفیف همکار"),
         },
 
         ["تخفیف مشتری"] = new List<PermissionDto>
