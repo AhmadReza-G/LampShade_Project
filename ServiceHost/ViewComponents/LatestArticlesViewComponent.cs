@@ -1,6 +1,4 @@
 ﻿using _01_LampshadeQuery.Contracts.Article;
-using _01_LampshadeQuery.Contracts.Product;
-using _01_LampshadeQuery.Contracts.ProductCategory;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ServiceHost.ViewComponents;

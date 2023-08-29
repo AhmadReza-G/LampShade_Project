@@ -43,3 +43,9 @@ D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\obj\Debug\ne
 D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\obj\Debug\net7.0\refint\01_LampshadeQuery.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\obj\Debug\net7.0\01_LampshadeQuery.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\obj\Debug\net7.0\ref\01_LampshadeQuery.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\AccountManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\AccountManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\AccountManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\AccountManagement.Domain.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\01_LampshadeQuery\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.pdb

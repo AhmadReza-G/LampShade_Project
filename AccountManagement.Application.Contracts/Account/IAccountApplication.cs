@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using System.Collections;
 
 namespace AccountManagement.Application.Contracts.Account;
 public interface IAccountApplication
@@ -10,4 +11,5 @@ public interface IAccountApplication
     List<AccountViewModel> Search(AccountSearchModel searchModel);
     OperationResult Login(Login command);
     void Logout();
+    List<AccountViewModel> GetAccounts();
 }

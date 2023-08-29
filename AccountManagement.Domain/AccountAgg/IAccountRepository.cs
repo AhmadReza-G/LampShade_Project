@@ -7,4 +7,5 @@ public interface IAccountRepository : IRepository<long, Account>
     Account GetBy(string username);
     EditAccount GetDetails(long id);
     List<AccountViewModel> Search(AccountSearchModel searchModel);
+    List<AccountViewModel> GetAccounts();
 }

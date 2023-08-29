@@ -38,6 +38,12 @@
     <link href="~/AdminTheme/assets/css/helper.css" rel="stylesheet" type="text/css" />
     <link href="~/AdminTheme/assets/css/style.css" rel="stylesheet" type="text/css" />
     <script src="~/AdminTheme/assets/js/modernizr.min.js"></script>
+
+    <!-- Include Text Editor stylesheet -->
+    @* <link href="~/AdminTheme/assets/Quill/quill.snow.css" rel="stylesheet"> *@
+
+    @* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sceditor@3/minified/themes/default.min.css" /> *@
+
 </head>
 
 <body class="fixed-left">
@@ -234,7 +240,7 @@
             initialValueType: "persian"
         });
     </script>
-    <script src="https://cdn.tiny.cloud/1/o79b4oxn6fanmupzldoyt381s0zitlgfmdti1j3c72t4ouvd/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="~/AdminTheme/assets/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
         tinymce.init({
             selector: '#BodyContent',
@@ -246,7 +252,61 @@
                 { value: 'First.Name', title: 'First Name' },
                 { value: 'Email', title: 'Email' },
             ],
+            image_title: true,
+            automatic_uploads: true,
+            file_picker_types: 'image',
+            file_picker_callback: function (cb, value, meta) {
+                var input = document.createElement('input');
+                input.setAttribute('type', 'file');
+                input.setAttribute('accept', 'image/*');
+
+                input.onchange = function () {
+                    var file = this.files[0];
+
+                    var reader = new FileReader();
+                    reader.onload = function () {
+                        var id = 'blobid' + (new Date()).getTime();
+                        var blobCache = tinymce.activeEditor.editorUpload.blobCache;
+                        var base64 = reader.result.split(',')[1];
+                        var blobInfo = blobCache.create(id, file, base64);
+                        blobCache.add(blobInfo);
+
+                        cb(blobInfo.blobUri(), { title: file.name });
+                    };
+                    reader.readAsDataURL(file);
+                };
+
+                input.click();
+            }
         });
     </script>
+    @* --------------------------------------------------------------------- *@
+    @* New Text Editor *@
+    @* <script src="~/AdminTheme/assets/Quill/quill.min.js"></script> *@
+
+    <!-- Initialize Quill editor -->
+    @* <script>
+    var quill = new Quill('#editor', {
+    modules: {
+    formula: true,
+    syntax: true,
+    toolbar: '#toolbar'
+    },
+    theme: 'snow'
+    });
+    setText(text: String, source: String = 'api'): Delta
+    </script> *@
+
+
+    @* <script src="https://cdn.jsdelivr.net/npm/sceditor@3/minified/sceditor.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sceditor@3/minified/formats/bbcode.min.js"></script>
+    <script>
+    // Replace the textarea #example with SCEditor
+    var textarea = document.getElementById('SCEditor');
+    sceditor.create(textarea, {
+    format: 'bbcode',
+    style: 'https://cdn.jsdelivr.net/npm/sceditor@3/minified/themes/content/default.min.css'
+    });
+    </script> *@
 </body>
 </html>

@@ -4,20 +4,16 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ServiceHost.Pages
 {
-    public class ArticleCategoryModel : PageModel
+    public class ArticleCategoryModel(IArticleCategoryQuery articleCategoryQuery,
+        IArticleQuery articleQuery) : PageModel
     {
-        public ArticleCategoryQueryModel ArticleCategory;
-        public List<ArticleCategoryQueryModel> ArticleCategories;
-        public List<ArticleQueryModel> LatestArticles;
+        public List<ArticleQueryModel> LatestArticles = new();
+        public ArticleCategoryQueryModel ArticleCategory = new();
+        public List<ArticleCategoryQueryModel> ArticleCategories = new();
 
-        private readonly IArticleQuery _articleQuery;
-        private readonly IArticleCategoryQuery _articleCategoryQuery;
+        private readonly IArticleQuery _articleQuery = articleQuery;
+        private readonly IArticleCategoryQuery _articleCategoryQuery = articleCategoryQuery;
 
-        public ArticleCategoryModel(IArticleCategoryQuery articleCategoryQuery, IArticleQuery articleQuery)
-        {
-            _articleQuery = articleQuery;
-            _articleCategoryQuery = articleCategoryQuery;
-        }
 
         public void OnGet(string id)
         {

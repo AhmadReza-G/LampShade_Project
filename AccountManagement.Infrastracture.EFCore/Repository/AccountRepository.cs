@@ -14,6 +14,15 @@ public class AccountRepository : RepositoryBase<long, Account>, IAccountReposito
         _context = context;
     }
 
+    public List<AccountViewModel> GetAccounts()
+    {
+        return _context.Accounts.Select(x => new AccountViewModel
+        {
+            Id = x.Id,
+            Fullname = x.Fullname
+        }).ToList();
+    }
+
     public Account GetBy(string username)
     {
         return _context.Accounts

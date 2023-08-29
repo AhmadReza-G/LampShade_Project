@@ -1,6 +1,7 @@
 ﻿using _01_LampshadeQuery.Contracts.Comment;
 
 namespace _01_LampshadeQuery.Contracts.Article;
+
 public class ArticleQueryModel
 {
     public long Id { get; set; }

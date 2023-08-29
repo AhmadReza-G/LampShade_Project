@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s0oDeLaQTlnjLNrK4jMsn2UyzmhXbTNBQAu4CofIgf2CWhu/2CdvhHZNlmg4FelHY/xV0KxeFxvgNSzWMTKksQ==",
+  "dgSpecHash": "FUbgzrNfsQgrGOzM0ojUXKhRbvY6N9JT/mERBjrbRuSfO/1lAUIEs5tTv5tmrX/sFOfT+0rni2xAFH0ppD3W/Q==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ahmad\\.nuget\\packages\\restsharp\\106.11.4\\restsharp.106.11.4.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",

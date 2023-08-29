@@ -15,6 +15,17 @@ namespace _0_Framework.Application
             _contextAccessor = contextAccessor;
         }
 
+        public long CurrentAccountId()
+        {
+            return IsAuthenticated()
+                ? long.Parse(_contextAccessor.HttpContext
+                    .User
+                    .Claims
+                    .FirstOrDefault(x => x.Type == "AccountId")
+                    !.Value)
+                : 0;
+        }
+
         public AuthViewModel CurrentAccountInfo()
         {
             var result = new AuthViewModel();
@@ -35,13 +46,14 @@ namespace _0_Framework.Application
 
         public string? CurrentAccountRole()
         {
-            if (IsAuthenticated())
-                return _contextAccessor.HttpContext
+            if (!IsAuthenticated())
+                return null;
+
+            return _contextAccessor.HttpContext
                     .User
                     .Claims
                     .FirstOrDefault(x => x.Type == ClaimTypes.Role)
                     !.Value;
-            return null;
         }
 
         public List<int> GetPermissions()

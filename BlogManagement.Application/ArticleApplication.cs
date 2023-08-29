@@ -2,80 +2,75 @@
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Domain.ArticleAgg;
 using BlogManagement.Domain.ArticleCategoryAgg;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.IO.Enumeration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BlogManagement.Application;
-public class ArticleApplication : IArticleApplication
+namespace BlogManagement.Application
 {
-    private readonly IFileUploader _fileUploader;
-    private readonly IArticleRepository _articleRepository;
-    private readonly IArticleCategoryRepository _articleCategoryRepository;
-
-    public ArticleApplication(IFileUploader fileUploader, IArticleRepository articleRepository, IArticleCategoryRepository articleCategoryRepository)
+    public class ArticleApplication : IArticleApplication
     {
-        _fileUploader = fileUploader;
-        _articleRepository = articleRepository;
-        _articleCategoryRepository = articleCategoryRepository;
-    }
+        private readonly IFileUploader _fileUploader;
+        private readonly IArticleRepository _articleRepository;
+        private readonly IArticleCategoryRepository _articleCategoryRepository;
+        public ArticleApplication(IArticleRepository articleRepository, IFileUploader fileUploader,
+            IArticleCategoryRepository articleCategoryRepository)
+        {
+            _fileUploader = fileUploader;
+            _articleRepository = articleRepository;
+            _articleCategoryRepository = articleCategoryRepository;
+        }
 
-    public OperationResult Create(CreateArticle command)
-    {
-        var operation = new OperationResult();
-        if (_articleRepository.IsExists(x => x.Title == command.Title))
-            return operation.Failed(ApplicationMessages.DuplicatedRecord);
+        public OperationResult Create(CreateArticle command)
+        {
+            var operation = new OperationResult();
+            if (_articleRepository.IsExists(x => x.Title == command.Title))
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
-        var slug = command.Slug.Slugify();
-        var categorySlug = _articleCategoryRepository.GetSlugBy(command.CategoryId);
-        var picturePath = $"{categorySlug}/{slug}";
-        var fileName = _fileUploader.Upload(command.Picture, picturePath);
-        var publishDate = command.PublishDate.ToGeorgianDateTime();
-        var article = new Article(command.Title, command.ShortDescription,
-            command.Description, fileName, command.PictureAlt, command.PictureTitle,
-            publishDate, slug, command.Keywords, command.MetaDescription,
-            command.CanonicalAddress, command.CategoryId);
-        _articleRepository.Create(article);
-        _articleRepository.SaveChanges();
+            var slug = command.Slug.Slugify();
+            var categorySlug = _articleCategoryRepository.GetSlugBy(command.CategoryId);
+            var path = $"{categorySlug}/{slug}";
+            var pictureName = _fileUploader.Upload(command.Picture, path);
+            var publishDate = command.PublishDate.ToGeorgianDateTime();
 
-        return operation.Succeded();
-    }
+            var article = new Article(command.Title, command.ShortDescription, command.Description, pictureName,
+                command.PictureAlt, command.PictureTitle, publishDate, slug, command.Keywords, command.MetaDescription,
+                command.CanonicalAddress, command.CategoryId);
 
-    public OperationResult Edit(EditArticle command)
-    {
-        var operation = new OperationResult();
-        var article = _articleRepository.GetWithCategory(command.Id);
-        if (article is null)
-            return operation.Failed(ApplicationMessages.RecordNotFound);
-        if (_articleRepository.IsExists(x => x.Title == command.Title && x.Id != command.Id))
-            return operation.Failed(ApplicationMessages.DuplicatedRecord);
+            _articleRepository.Create(article);
+            _articleRepository.SaveChanges();
+            return operation.Succeded();
+        }
 
+        public OperationResult Edit(EditArticle command)
+        {
+            var operation = new OperationResult();
+            var article = _articleRepository.GetWithCategory(command.Id);
 
-        var slug = command.Slug.Slugify();
-        var picturePath = $"{article.Category.Slug}/{slug}";
+            if (article == null)
+                return operation.Failed(ApplicationMessages.RecordNotFound);
 
-        var fileName = _fileUploader.Upload(command.Picture, picturePath);
-        var publishDate = command.PublishDate.ToGeorgianDateTime();
-        article.Edit(command.Title, command.ShortDescription,
-            command.Description, fileName, command.PictureAlt, command.PictureTitle,
-            publishDate, slug, command.Keywords, command.MetaDescription,
-            command.CanonicalAddress, command.CategoryId);
-        _articleRepository.SaveChanges();
+            if (_articleRepository.IsExists(x => x.Title == command.Title && x.Id != command.Id))
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
-        return operation.Succeded();
-    }
+            var slug = command.Slug.Slugify();
+            var path = $"{article.Category.Slug}/{slug}";
+            var pictureName = _fileUploader.Upload(command.Picture, path);
+            var publishDate = command.PublishDate.ToGeorgianDateTime();
 
-    public EditArticle GetDetails(long id)
-    {
-        return _articleRepository.GetDetails(id);
-    }
+            article.Edit(command.Title, command.ShortDescription, command.Description, pictureName,
+                command.PictureAlt, command.PictureTitle, publishDate, slug, command.Keywords, command.MetaDescription,
+                command.CanonicalAddress, command.CategoryId);
 
-    public List<ArticleViewModel> Search(ArticleSearchModel searchModel)
-    {
-        return _articleRepository.Search(searchModel);
+            _articleRepository.SaveChanges();
+            return operation.Succeded();
+        }
+
+        public EditArticle GetDetails(long id)
+        {
+            return _articleRepository.GetDetails(id);
+        }
+
+        public List<ArticleViewModel> Search(ArticleSearchModel searchModel)
+        {
+            return _articleRepository.Search(searchModel);
+        }
     }
 }

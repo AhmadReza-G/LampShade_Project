@@ -19,3 +19,9 @@ D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Infrastructure.
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ShopManagement.Infrastructure.EFCore.genruntimeconfig.cache
 D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Infrastructure.EFCore\obj\Debug\net7.0\ref\ShopManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\ShopManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Domain.pdb

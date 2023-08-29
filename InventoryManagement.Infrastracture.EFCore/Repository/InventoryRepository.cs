@@ -1,7 +1,9 @@
 ﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
+using AccountManagement.Infrastracture.EFCore;
 using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
+using InventoryManagement.Infrastracture.EFCore.Migrations;
 using ShopManagement.Infrastructure.EFCore;
 
 namespace InventoryManagement.Infrastracture.EFCore.Repository;
@@ -9,11 +11,13 @@ public class InventoryRepository : RepositoryBase<long, Inventory>, IInventoryRe
 {
     private readonly InventoryContext _inventoryContext;
     private readonly ShopContext _shopContext;
+    private readonly AccountContext _accountContext;
 
-    public InventoryRepository(InventoryContext context, ShopContext shopContext) : base(context)
+    public InventoryRepository(InventoryContext context, ShopContext shopContext, AccountContext accountContext) : base(context)
     {
         _inventoryContext = context;
         _shopContext = shopContext;
+        _accountContext = accountContext;
     }
 
     public Inventory Get(long productId)
@@ -33,8 +37,11 @@ public class InventoryRepository : RepositoryBase<long, Inventory>, IInventoryRe
 
     public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
     {
+        var accounts = _accountContext.Accounts
+            .Select(x => new { x.Id, x.Fullname })
+            .ToList();
         var inventory = _inventoryContext.Inventory.FirstOrDefault(x => x.Id == inventoryId);
-        return inventory.Operations.Select(x => new InventoryOperationViewModel
+        var operations = inventory.Operations.Select(x => new InventoryOperationViewModel
         {
             Id = x.Id,
             OrderId = x.OrderId,
@@ -43,9 +50,13 @@ public class InventoryRepository : RepositoryBase<long, Inventory>, IInventoryRe
             Description = x.Description,
             Operation = x.Operation,
             OperationDate = x.OperationDate.ToFarsi(),
-            OperatorId = x.OperatorId,
-            Operator = "مدیر سیستم"
+            OperatorId = x.OperatorId
         }).OrderByDescending(x => x.Id).ToList();
+
+        foreach (var operation in operations)
+            operation.Operator = accounts.FirstOrDefault(x => x.Id == operation.OperatorId)?.Fullname;
+
+        return operations;
     }
 
     public List<InventoryViewModel> Search(InventorySearchModel searchModel)

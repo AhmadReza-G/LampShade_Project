@@ -26,4 +26,10 @@ public static class ShopPermissions
     public const int ListSlides = 132;
     public const int RemoveSlide = 133;
     public const int RestoreSlide = 134;
+
+    // Order Permissions
+    public const int SearchOrders = 135;
+    public const int ListOrders = 136;
+    public const int ConfirmOrder = 137;
+    public const int CancelOrder = 138;
 }

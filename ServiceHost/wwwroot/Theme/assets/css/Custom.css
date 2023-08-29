@@ -1,4 +1,4 @@
-﻿@font-face {
+﻿﻿@font-face {
     font-family: 'IranSans';
     src: url('../fonts/IranianSans.eot'), url('../fonts/IranianSans.eot') format('embedded-opentype'), url('../fonts/IranianSans.woff') format('woff'), url('../fonts/IranianSans.ttf') format('truetype'), url('../fonts/IranianSans.svg') format('svg');
     font-weight: normal;
@@ -8,7 +8,7 @@
 body {
     direction: rtl;
     text-align: right;
-    font-family: 'IranSans';
+    font-family: 'IranSans'
 }
 
 .hero-slider-content {
@@ -45,7 +45,7 @@ body {
 
 .single-grid-product__price .discounted-price {
     margin-right: unset;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .tab-slider-wrapper .tab-product-navigation .nav .nav-item:last-child {

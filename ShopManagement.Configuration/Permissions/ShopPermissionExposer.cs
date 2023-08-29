@@ -35,6 +35,13 @@ public class ShopPermissionExposer : IPermissionExposer
             new(ShopPermissions.ListSlides, "لیست اسلایدرها"),
             new(ShopPermissions.RemoveSlide, "حذف اسلایدر"),
             new(ShopPermissions.RestoreSlide, "بازیابی اسلایدر")
+        },
+        ["سفارشات"] = new List<PermissionDto>
+        {
+            new(ShopPermissions.SearchOrders, "جستجوی سفارش"),
+            new(ShopPermissions.ListOrders, "لیست سفارشات"),
+            new(ShopPermissions.ConfirmOrder, "تأیید سفارش"),
+            new(ShopPermissions.CancelOrder, "رد سفارش")
         }
     };
 }

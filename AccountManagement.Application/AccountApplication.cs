@@ -116,4 +116,9 @@ public class AccountApplication : IAccountApplication
     {
         return _accountRepository.Search(searchModel);
     }
+
+    public List<AccountViewModel> GetAccounts()
+    {
+        return _accountRepository.GetAccounts();
+    }
 }

@@ -74,7 +74,7 @@
                             <div class="form-group no-margin">
                                 <label asp-for="Command.ShortDescription" class="control-label">توضیحات کوتاه</label>
                                 <textarea class="form-control autogrow" asp-for="Command.ShortDescription" onchange="fillField('ShortDescription', 'MetaDescription')"
-                                          style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
+                                          style="overflow: hidden; word-wrap: break-word; resize: vertical; height: 104px;"></textarea>
                                 <span asp-validation-for="Command.ShortDescription" class="error"></span>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                         <div class="col-md-12">
                             <div class="form-group no-margin">
                                 <label asp-for="Command.Description" class="control-label">توضیحات</label>
-                                <textarea class="form-control" id="BodyContent" asp-for="Command.Description"></textarea>
+                                <textarea asp-for="Command.Description" class="form-control autogrow" id="BodyContent" style="resize: vertical; overflow: auto; height: 208px;"></textarea>
                                 <span asp-validation-for="Command.Description" class="error"></span>
                             </div>
                         </div>

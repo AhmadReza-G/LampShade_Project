@@ -64,7 +64,6 @@ namespace CommentManagement.Infrastracture.EFCore.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Website")
-                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 

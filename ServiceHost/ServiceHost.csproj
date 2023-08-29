@@ -1,65 +1,158 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LangVersion>preview</LangVersion>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Content Remove="Pages\Article.cshtml" />
-    <Content Remove="wwwroot\Theme\assets\js\custom.js" />
-  </ItemGroup>
+	<ItemGroup>
+		<Content Remove="Pages\Article.cshtml" />
+		<Content Remove="wwwroot\Theme\assets\js\custom.js" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Nancy" Version="2.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.TypeScript.MSBuild" Version="5.2.2">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Nancy" Version="2.0.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\AccountManagement.Configuration\AccountManagement.Configuration.csproj" />
-    <ProjectReference Include="..\BlogManagement.Configuration\BlogManagement.Configuration.csproj" />
-    <ProjectReference Include="..\CommentManagement.Application.Contracts\CommentManagement.Application.Contracts.csproj" />
-    <ProjectReference Include="..\CommentManagement.Configuration\CommentManagement.Configuration.csproj" />
-    <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
-    <ProjectReference Include="..\InventoryManagement.Configuration\InventoryManagement.Configuration.csproj" />
-    <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\AccountManagement.Configuration\AccountManagement.Configuration.csproj" />
+		<ProjectReference Include="..\BlogManagement.Configuration\BlogManagement.Configuration.csproj" />
+		<ProjectReference Include="..\CommentManagement.Application.Contracts\CommentManagement.Application.Contracts.csproj" />
+		<ProjectReference Include="..\CommentManagement.Configuration\CommentManagement.Configuration.csproj" />
+		<ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
+		<ProjectReference Include="..\InventoryManagement.Configuration\InventoryManagement.Configuration.csproj" />
+		<ProjectReference Include="..\InventoryManagement.Presentation.Api\InventoryManagement.Presentation.Api.csproj" />
+		<ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
+		<ProjectReference Include="..\ShopManagement.Presentation.Api\ShopManagement.Presentation.Api.csproj" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\ProductPictures\دکوری\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Controllers\" />
+		<Folder Include="wwwroot\ProductPictures\دکوری\" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Content Update="Areas\Administration\Pages\Blog\Articles\Index.cshtml">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
+	<ItemGroup>
+		<Content Update="Areas\Administration\Pages\Blog\Articles\Index.cshtml">
+			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</Content>
+	</ItemGroup>
 
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\Article.cshtml" />
-  </ItemGroup>
+	<ItemGroup>
+		<UpToDateCheckInput Remove="Pages\Article.cshtml" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Pages\Article.cshtml" />
-    <_ContentIncludedByDefault Remove="wwwroot\Theme\assets\js\custom.js" />
-  </ItemGroup>
+	<ItemGroup>
+		<_ContentIncludedByDefault Remove="Pages\Article.cshtml" />
+		<_ContentIncludedByDefault Remove="wwwroot\Theme\assets\js\custom.js" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <None Include="Areas\Administration\Pages\Accounts\Account\ChangePassword.cshtml" />
-    <None Include="Areas\Administration\Pages\Accounts\Account\Register.cshtml" />
-    <None Include="Areas\Administration\Pages\Accounts\Account\Edit.cshtml" />
-    <None Include="Areas\Administration\Pages\Accounts\Account\Index.cshtml" />
-    <None Include="Areas\Administration\Pages\Accounts\Role\Create.cshtml" />
-    <None Include="Areas\Administration\Pages\Accounts\Role\Edit.cshtml" />
-    <None Include="Areas\Administration\Pages\Accounts\Role\Index.cshtml" />
-    <None Include="Pages\Article.cshtml" />
-    <None Include="wwwroot\Theme\assets\js\custom.js" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="Areas\Administration\Pages\Accounts\Account\ChangePassword.cshtml" />
+		<None Include="Areas\Administration\Pages\Accounts\Account\Register.cshtml" />
+		<None Include="Areas\Administration\Pages\Accounts\Account\Edit.cshtml" />
+		<None Include="Areas\Administration\Pages\Accounts\Account\Index.cshtml" />
+		<None Include="Areas\Administration\Pages\Accounts\Role\Create.cshtml" />
+		<None Include="Areas\Administration\Pages\Accounts\Role\Edit.cshtml" />
+		<None Include="Areas\Administration\Pages\Accounts\Role\Index.cshtml" />
+		<None Include="Areas\Administration\Pages\Shop\Orders\Index.cshtml" />
+		<None Include="Areas\Administration\Pages\Shop\Orders\Items.cshtml" />
+		<None Include="Pages\Article.cshtml" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\icons\default\icons.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\langs\README.md" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\models\dom\model.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\accordion\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\advlist\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\anchor\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\autolink\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\autoresize\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\autosave\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\charmap\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\codesample\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\code\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\directionality\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\emoticons\js\emojiimages.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\emoticons\js\emojiimages.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\emoticons\js\emojis.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\emoticons\js\emojis.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\emoticons\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\fullscreen\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\ar.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\bg_BG.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\ca.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\cs.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\da.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\de.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\el.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\en.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\es.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\eu.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\fa.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\fi.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\fr_FR.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\he_IL.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\hi.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\hr.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\hu_HU.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\id.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\it.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\ja.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\kk.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\ko_KR.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\ms.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\nb_NO.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\nl.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\pl.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\pt_BR.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\pt_PT.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\ro.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\ru.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\sk.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\sl_SI.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\sv_SE.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\th_TH.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\tr.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\uk.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\vi.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\zh_CN.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\js\i18n\keynav\zh_TW.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\help\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\image\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\importcss\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\insertdatetime\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\link\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\lists\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\media\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\nonbreaking\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\pagebreak\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\preview\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\quickbars\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\save\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\searchreplace\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\table\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\template\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\visualblocks\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\visualchars\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\plugins\wordcount\plugin.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\themes\silver\theme.min.js" />
+		<None Include="wwwroot\AdminTheme\assets\tinymce\tinymce.min.js" />
+		<None Include="wwwroot\Theme\assets\js\custom.js" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <TypeScriptCompile Include="wwwroot\AdminTheme\assets\tinymce\tinymce.d.ts" />
+	</ItemGroup>
 
 </Project>
