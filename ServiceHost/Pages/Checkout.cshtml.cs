@@ -54,6 +54,8 @@ public class CheckoutModel(ICartCalculatorService cartCalculatorService, ICartSe
                 $"https://{_zarinPalFactory.Prefix}.zarinpal.com/pg/StartPay/{paymentResponse.Authority}");
         }
 
+        var value = Request.Cookies[CookieName];
+        Response.Cookies.Delete(CookieName);
         var paymentResult = new PaymentResult();
         return RedirectToPage("/PaymentResult",
             paymentResult.Succeeded(

@@ -95,13 +95,13 @@ public class AccountApplication : IAccountApplication
         if (!result.Verified)
             return operation.Failed(ApplicationMessages.WrongUserPass);
 
-        var permissions = _roleRepository.GetBy(account.RoleId)
+        var permissions = _roleRepository.GetBy(account.RoleId)!
             .Permissions
             .Select(x => x.Code)
             .ToList();
 
         var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname,
-            account.Username, Roles.GetRoleBy(account.RoleId), account.ProfilePhoto, permissions);
+            account.Username, Roles.GetRoleBy(account.RoleId), account.ProfilePhoto, permissions, account.Mobile);
         _authHelper.Signin(authViewModel);
 
         return operation.Succeded();
@@ -121,4 +121,20 @@ public class AccountApplication : IAccountApplication
     {
         return _accountRepository.GetAccounts();
     }
+
+    public AccountViewModel? GetAccountBy(long id)
+    {
+        var account = _accountRepository.GetBy(id);
+        if (account is not null)
+        {
+            return new AccountViewModel
+            {
+                Fullname = account.Fullname,
+                Mobile = account.Mobile
+
+            };
+        }
+        return null;
+    }
 }
+

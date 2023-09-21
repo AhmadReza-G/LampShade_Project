@@ -6,16 +6,21 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ServiceHost.Pages
 {
-    public class ArticleModel(IArticleQuery articleQuery,
-        IArticleCategoryQuery articleCategoryQuery,
-        ICommentApplication commentApplication) : PageModel
+    public class ArticleModel : PageModel
     {
-        public ArticleQueryModel Article = new();
-        public List<ArticleQueryModel> LatestArticles = new();
-        public List<ArticleCategoryQueryModel> ArticleCategories = new();
-        private readonly IArticleQuery _articleQuery = articleQuery;
-        private readonly ICommentApplication _commentApplication = commentApplication;
-        private readonly IArticleCategoryQuery _articleCategoryQuery = articleCategoryQuery;
+        public ArticleQueryModel Article;
+        public List<ArticleQueryModel> LatestArticles;
+        public List<ArticleCategoryQueryModel> ArticleCategories;
+        private readonly IArticleQuery _articleQuery;
+        private readonly IArticleCategoryQuery _articleCategoryQuery;
+        private readonly ICommentApplication _commentApplication;
+
+        public ArticleModel(IArticleQuery articleQuery, IArticleCategoryQuery articleCategoryQuery, ICommentApplication commentApplication)
+        {
+            _articleQuery = articleQuery;
+            _commentApplication = commentApplication;
+            _articleCategoryQuery = articleCategoryQuery;
+        }
 
         public void OnGet(string id)
         {

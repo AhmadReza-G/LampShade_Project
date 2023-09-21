@@ -3,6 +3,9 @@ D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastruct
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\0_Framework.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Application.Contracts.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Domain.dll
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\DiscountManagement.Application.Contracts.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\DiscountManagement.Domain.dll
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
@@ -11,6 +14,9 @@ D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastruct
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\DiscountManagement.Domain.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\ShopManagement.Infrastructure.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\0_Framework.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Application.Contracts.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Domain.pdb
+D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\ShopManagement.Domain.pdb
@@ -25,9 +31,3 @@ D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastruct
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.pdb
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\DiscountManagement.Infrastructure.EFCore.genruntimeconfig.cache
 D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\obj\Debug\net7.0\ref\DiscountManagement.Infrastructure.EFCore.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Application.Contracts.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Domain.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.dll
-D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Application.Contracts.pdb
-D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Domain.pdb
-D:\Programming\Projects\VS\LampShade_Project\Code\DiscountManagement.Infrastructure.EFCore\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.pdb

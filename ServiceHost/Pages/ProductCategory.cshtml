@@ -35,14 +35,14 @@
                                 <div class="shop-header">
                                     <div class="shop-header__left">
                                         <div class="shop-header__left__message">
-                                            Showing 1 to 9 of 15 (2 Pages)
+                                            نمایش 1 از @Model.ProductCategory.Products.Count
                                         </div>
                                     </div>
 
                                     <div class="shop-header__right">
 
                                         <div class="single-select-block d-inline-block">
-                                            <span class="select-title">Show:</span>
+                                            <span class="select-title">نمایش:</span>
                                             <select>
                                                 <option value="1">10</option>
                                                 <option value="2">20</option>
@@ -52,9 +52,9 @@
                                         </div>
 
                                         <div class="single-select-block d-inline-block">
-                                            <span class="select-title">Sort By:</span>
+                                            <span class="select-title">مرتب سازی براساس:</span>
                                             <select class="pr-0">
-                                                <option value="1">Default</option>
+                                                <option value="1">پیش فرض</option>
                                                 <option value="2">Name (A-Z)</option>
                                                 <option value="3">Price (min - max)</option>
                                                 <option value="4">Color</option>
@@ -124,9 +124,9 @@
 
                                 <div class="pagination-area">
                                     <div class="pagination-area__left">
-                                        Showing 1 to 9 of 11 (2 Pages)
+                                        نمایش 1 از @Model.ProductCategory.Products.Count
                                     </div>
-                                    <div class="pagination-area__right">
+                                    @* <div class="pagination-area__right">
                                         <ul class="pagination-section">
                                             <li>
                                                 <a class="active" href="#">1</a>
@@ -135,7 +135,7 @@
                                                 <a href="#">2</a>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> *@
                                 </div>
                             </div>
                         </div>

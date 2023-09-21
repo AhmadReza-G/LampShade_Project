@@ -67,6 +67,13 @@ function removeFromCart(id) {
     updateCart();
 }
 
+$('.cart-item-check').click(function () {
+    let products = $.cookie(cookieName);
+    if (products === undefined || products === void 0 || products === null || products === "undefined") {
+
+        alert('سبد خرید خالی است.');
+    }
+});
 function changeCartItemCount(id, totalId, count) {
     var products = $.cookie(cookieName);
     products = JSON.parse(products);

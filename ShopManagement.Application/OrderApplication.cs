@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using _0_Framework.Application.Sms;
 using Microsoft.Extensions.Configuration;
 using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.OrderAgg;
@@ -7,12 +8,16 @@ using ShopManagement.Domain.Services;
 namespace ShopManagement.Application;
 public class OrderApplication(IOrderRepository orderRepository,
     IAuthHelper authHelper, IConfiguration configuration,
-    IShopInventoryAcl shopInventoryAcl) : IOrderApplication
+    IShopInventoryAcl shopInventoryAcl, ISmsService smsService,
+    IShopAccountAcl shopAccountAcl) : IOrderApplication
 {
     private readonly IAuthHelper _authHelper = authHelper;
+    private readonly ISmsService _smsService = smsService;
     private readonly IConfiguration _configuration = configuration;
+    private readonly IShopAccountAcl _shopAccountAcl = shopAccountAcl;
     private readonly IOrderRepository _orderRepository = orderRepository;
     private readonly IShopInventoryAcl _shopInventoryAcl = shopInventoryAcl;
+
 
     public double GetAmountBy(long id)
     {
@@ -35,6 +40,11 @@ public class OrderApplication(IOrderRepository orderRepository,
         if (!_shopInventoryAcl.ReduceFromInventory(order.Items)) return "";
 
         _orderRepository.SaveChanges();
+        var (name, mobile) = _shopAccountAcl.GetAccountBy(order.AccountId);
+        _smsService.Send(mobile ?? string.Empty,
+            $"کاربر {name ?? "گرامی"} سفارش شما با شماره پیگیری {issueTrackingNo}" +
+            $" با موفقیت  پرداخت شد و ارسال خواهد شد.");
+
         return issueTrackingNo;
     }
 

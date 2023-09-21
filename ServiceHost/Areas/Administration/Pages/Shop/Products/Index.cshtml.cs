@@ -41,6 +41,7 @@ public class IndexModel : PageModel
         };
         return Partial("./Create", command);
     }
+
     [NeedsPermission(ShopPermissions.CreateProduct)]
     public JsonResult OnPostCreate(CreateProduct command)
     {
@@ -54,6 +55,7 @@ public class IndexModel : PageModel
         product.Categories = _productCategoryApplication.GetProductCategories();
         return Partial("Edit", product);
     }
+
     [NeedsPermission(ShopPermissions.EditProduct)]
     public JsonResult OnPostEdit(EditProduct command)
     {

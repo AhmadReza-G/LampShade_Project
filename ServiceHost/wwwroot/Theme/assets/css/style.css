@@ -1585,7 +1585,7 @@ select {
         }
 
             .copyright-social-wrapper .copyright-social li a:hover {
-                color: #e33;
+                color: #00b7ff;
             }
 
 /*=====  End of footer  ======*/
@@ -2352,9 +2352,9 @@ select {
     }
 
 .single-grid-product__price .main-price {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 20px;
     color: #333;
 }
 
@@ -2363,9 +2363,9 @@ select {
     }
 
 .single-grid-product__price .discounted-price {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 20px;
     margin-right: 10px;
     color: #e33;
 }

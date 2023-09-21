@@ -44,6 +44,17 @@ namespace _0_Framework.Application
             return result;
         }
 
+        public string CurrentAccountMobile()
+        {
+            return IsAuthenticated()
+                ? (_contextAccessor.HttpContext
+                    .User
+                    .Claims
+                    .FirstOrDefault(x => x.Type == "Mobile")
+                    !.Value)
+                : string.Empty;
+        }
+
         public string? CurrentAccountRole()
         {
             if (!IsAuthenticated())
@@ -90,7 +101,8 @@ namespace _0_Framework.Application
                 new Claim("Username", account.Username),
                 new Claim(ClaimTypes.Role, account.RoleId.ToString()),
                 new Claim("ProfilePhoto", account.ProfilePhoto ?? ""),
-                new Claim("Permissions", permissions)
+                new Claim("Permissions", permissions),
+                new Claim("Mobile", account.Mobile)
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

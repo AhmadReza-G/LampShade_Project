@@ -12,4 +12,5 @@ public interface IAccountApplication
     OperationResult Login(Login command);
     void Logout();
     List<AccountViewModel> GetAccounts();
+    AccountViewModel? GetAccountBy(long id);
 }

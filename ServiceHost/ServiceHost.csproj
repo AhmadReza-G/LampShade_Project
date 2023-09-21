@@ -8,7 +8,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Content Remove="Pages\Article.cshtml" />
 		<Content Remove="wwwroot\Theme\assets\js\custom.js" />
 	</ItemGroup>
 
@@ -51,11 +50,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<UpToDateCheckInput Remove="Pages\Article.cshtml" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<_ContentIncludedByDefault Remove="Pages\Article.cshtml" />
 		<_ContentIncludedByDefault Remove="wwwroot\Theme\assets\js\custom.js" />
 	</ItemGroup>
 
@@ -69,7 +63,6 @@
 		<None Include="Areas\Administration\Pages\Accounts\Role\Index.cshtml" />
 		<None Include="Areas\Administration\Pages\Shop\Orders\Index.cshtml" />
 		<None Include="Areas\Administration\Pages\Shop\Orders\Items.cshtml" />
-		<None Include="Pages\Article.cshtml" />
 		<None Include="wwwroot\AdminTheme\assets\tinymce\icons\default\icons.min.js" />
 		<None Include="wwwroot\AdminTheme\assets\tinymce\langs\README.md" />
 		<None Include="wwwroot\AdminTheme\assets\tinymce\models\dom\model.min.js" />

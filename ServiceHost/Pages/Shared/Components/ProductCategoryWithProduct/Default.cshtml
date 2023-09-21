@@ -57,7 +57,7 @@
                                                         @if (product.HasDiscount)
                                                         {
                                                             <div class="single-grid-product__label">
-                                                                <span class="sale">-@product.DiscountRate%</span>
+                                                                <span class="sale">@product.DiscountRate%-</span>
                                                             </div>
                                                         }
                                                         <a asp-page="/Product" asp-route-id="@product.Slug">
