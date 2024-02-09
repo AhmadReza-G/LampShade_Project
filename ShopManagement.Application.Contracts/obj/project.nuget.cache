@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k/FsNmY2C0sZlSSD9hpikx61s2kRSeum5W1Q163KKNoUAf2Sda5+6fLYMMyvZiP2S/qOn1i56YsrE0lz1o+tNw==",
+  "dgSpecHash": "Ewb1p8O91DAID9dJ62fHfh1vBuaAIGJCGLpgox32/VXZR2Zov4owS4R1FgG//oMMQBnpGYz4fdLwDaEzhjE2bA==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\VS\\LampShade_Project\\Code\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
@@ -57,7 +57,10 @@
     "C:\\Users\\ahmad\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\ahmad\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\ahmad\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
   ],
   "logs": []
 }
